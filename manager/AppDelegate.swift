@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // UserDefaultsを使ってフラグを保持する
         let userDefault = UserDefaults.standard
         // "firstLaunch"をキーに、Bool型の値を保持する
-        let dict = ["firstLaunch": true]
+        let dict = ["homeLaunch": true]
         // デフォルト値登録
         // ※すでに値が更新されていた場合は、更新後の値のままになる
         userDefault.register(defaults: dict)

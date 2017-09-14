@@ -14,6 +14,7 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     @IBOutlet weak var fieldCollection: UICollectionView!
     var fieldArr:[[[String]]] = [[[]]]
+    var unitsArr = [[Dictionary<String, Bool>]]()
     var dep:Int!
     var major:Int!
     var selectedField:Int!
@@ -24,8 +25,23 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         // Cell はストーリーボードで設定したセルのID
         let testCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         
+//        let ud = UserDefaults.standard
+//        var count:Int = 0
+//
+//        if (ud.object(forKey: "unitsDic") != nil){
+//            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
+//            
+//            print(indexPath.row)
+//            for (_,data) in unitsArr[major][indexPath.row]{
+//                if data == true{count += 2}
+//            }
+//        }        
+        
         let label = testCell.contentView.viewWithTag(1) as! UILabel
         label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
+//        label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row] + "\(count)"
+        
+        
         
         return testCell
     }

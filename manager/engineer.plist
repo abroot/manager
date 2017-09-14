@@ -41,6 +41,20 @@
 			<key>卒業研究</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>情報数学</key>
+			<false/>
+			<key>数値解析</key>
+			<false/>
+			<key>電気回路学1及び演習</key>
+			<false/>
+			<key>情報理論</key>
+			<false/>
+			<key>計算機工学</key>
+			<false/>
+			<key>電磁気学及び演習</key>
+			<false/>
+		</dict>
 	</array>
 	<array/>
 	<array/>

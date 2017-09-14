@@ -30,10 +30,10 @@ class HomeView: UIViewController {
         //viewDidLoadだと画面遷移ができない
         //viewWillAppearでもだめ
         let ud = UserDefaults.standard
-        if ud.bool(forKey: "firstLaunch") {
+        if ud.bool(forKey: "homeLaunch") {
             //firstlaunchキーがtrueなら実行（ここでは初期化ずみ）
             //以降、実行されないようにfalseを入れる
-            ud.set(false, forKey: "firstLaunch")
+            ud.set(false, forKey: "homeLaunch")
             performSegue(withIdentifier: "toSelect", sender: self)
         }
         
