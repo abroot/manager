@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>プログラミング序論</key>
+			<false/>
+			<key>情報生体システム工学基礎</key>
+			<false/>
+			<key>フレッシュマンセミナー</key>
+			<false/>
+			<key>確率統計序論</key>
+			<false/>
+			<key>プログラミング序論演習</key>
+			<false/>
+			<key>応用数学1</key>
+			<false/>
+			<key>応用数学1演習</key>
+			<false/>
+			<key>情報生体システム工学実験1</key>
+			<false/>
+			<key>応用数学2</key>
+			<false/>
+			<key>応用数学2演習</key>
+			<false/>
+			<key>プログラミング言語1</key>
+			<false/>
+			<key>プログラミング言語1演習</key>
+			<false/>
+			<key>情報生体システム工学実験2</key>
+			<false/>
+			<key>情報生体システム工学実験3</key>
+			<false/>
+			<key>システム工学英語</key>
+			<false/>
+			<key>情報倫理学</key>
+			<false/>
+			<key>情報生体システム工学実験4</key>
+			<false/>
+			<key>卒業研究</key>
+			<false/>
+		</dict>
+	</array>
+	<array/>
+	<array/>
+	<array/>
+	<array/>
+	<array/>
+	<array/>
+</array>
+</plist>

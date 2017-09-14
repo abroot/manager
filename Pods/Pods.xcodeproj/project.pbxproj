@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4027C4B52627363090ECCC57E48D6F /* Pods-manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31020307B8A2A5B7194171145553AD59 /* Pods-manager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEDB2769FC5A357DE90670322FD2C5C /* CountdownPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E357A25F74827FAFE0C826F0F133D9 /* CountdownPickerPopover.storyboard */; };
+		14C3B9BBEA731446B29197274B143DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1910F82A610DCAAFEA7F216B8AFDB044 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5657AAF0EFF44D311100BD2868C99E0 /* String+Extension.swift */; };
+		3B62CA6B820C5FD374CD7F0FECC57FF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4165CCC0D6922F82EFAA9CE2BB9201DF /* Localizable.strings */; };
+		3D5B85DA4DF55244CF8FD41FDB6EFC3D /* AbstractPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B314726A0FF430C7A3E0610407FB4 /* AbstractPickerPopoverViewController.swift */; };
+		44BAF8D6532B43515A57147D13EFDE31 /* ColumnStringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFBBABEC12EC3F1FB977D90F7F99836 /* ColumnStringPickerPopover.swift */; };
+		49CFDAD05B034793F8F868C4C451260D /* ColumnStringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D4073F855ECF9F0E5A68890B2B985F /* ColumnStringPickerPopoverViewController.swift */; };
+		5D7B414016D74774E14D44654B5A488F /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244F0D8709D36D2E288749059B986E2B /* DispatchQueue+Extension.swift */; };
+		5F492F02CEDFFFDFD7F8D3042F64F0D5 /* CountdownPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8410E2236D9ECDFF0A4607A679C6DC /* CountdownPickerPopoverViewController.swift */; };
+		64C63527E2568FE590BE4CE465C37C70 /* DatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DBA83A9E1A973098B6FAB263AB5858 /* DatePickerPopover.swift */; };
+		682CFBDFD5B225B78A227916C897EAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		734CDEDE1450836D4767E7C8182B718C /* AbstractPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F112294A35DF2489DD303297C31FE0 /* AbstractPopover.swift */; };
+		7F1C438348C6DAFB1E6F5BA2CA564876 /* SwiftyPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F75111F587C8B8ED9256AED93E003B06 /* SwiftyPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7BB35BF4E6C6158F75ED5286B7ABC8 /* StringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E81B2B0D589D2CA3E056C408F07C8 /* StringPickerPopover.swift */; };
+		8DA61D346C46DB4DEDB18F0062E00857 /* ColumnStringPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12AA5F307A083D1E22E6F56AE6A6E7A /* ColumnStringPickerPopover.storyboard */; };
+		B3163282B152C87E7CBFA05C7261AC45 /* Pods-manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D86ADCEE4337B8D8B8E0201E186221 /* Pods-manager-dummy.m */; };
+		B6510968B55A5A3542BAB117E4080BCF /* DatePickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F70D8B488386A756D393DC0EC632F /* DatePickerPopoverViewController.swift */; };
+		BEE41942EB5EAE1E43A44BFAB1EFC86A /* StringPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714A24B1B6577EF70D4E2BC498744C9 /* StringPickerPopover.storyboard */; };
+		C2E9573420A5A96CEDB1897F93E7616C /* DatePickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10193F71DD011CBE31390DD82F3EA03F /* DatePickerPopover.storyboard */; };
+		D1F76213B1C9D2293D75217990C695FF /* CountdownPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0BBC258ED02D68C46139246BD68E1 /* CountdownPickerPopover.swift */; };
+		D6EEE8388A95B2506398759C2E2AFB06 /* StringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8285AA19E7EF5AEAEBF4EDA5B67EF3 /* StringPickerPopoverViewController.swift */; };
+		F03BA39149AA9F4E30012F00193BF0F5 /* AbstractPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92EDD88D926F3695F7608B99D179931B /* AbstractPopover.storyboard */; };
+		F3127F8E0A5B2AC92EDEF870C33B289D /* SwiftyPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE36A93D34667BAC9F44B36912899A /* SwiftyPickerPopover-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1362F651B71F12045A2E2C643AA5803B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89F2BD9931F060F0E001D7C69D36029;
+			remoteInfo = SwiftyPickerPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F112294A35DF2489DD303297C31FE0 /* AbstractPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractPopover.swift; path = SwiftyPickerPopover/AbstractPopover.swift; sourceTree = "<group>"; };
+		124E81B2B0D589D2CA3E056C408F07C8 /* StringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopover.swift; path = SwiftyPickerPopover/StringPickerPopover.swift; sourceTree = "<group>"; };
+		1E8285AA19E7EF5AEAEBF4EDA5B67EF3 /* StringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopoverViewController.swift; path = SwiftyPickerPopover/StringPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		22AFA5A53612F0273ACDF9F742106598 /* DatePickerPopover.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = DatePickerPopover.strings; path = ja.lproj/DatePickerPopover.strings; sourceTree = "<group>"; };
+		23325D9803EFCDE150E779709182DB60 /* Pods-manager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-manager-resources.sh"; sourceTree = "<group>"; };
+		244F0D8709D36D2E288749059B986E2B /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extension.swift"; path = "SwiftyPickerPopover/DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		31020307B8A2A5B7194171145553AD59 /* Pods-manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-manager-umbrella.h"; sourceTree = "<group>"; };
+		352B7F0017323346B6D21E69660FFCB0 /* Pods-manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-manager.release.xcconfig"; sourceTree = "<group>"; };
+		36B170FB4BEF47942762F502FF33EE76 /* SwiftyPickerPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyPickerPopover.xcconfig; sourceTree = "<group>"; };
+		3A8410E2236D9ECDFF0A4607A679C6DC /* CountdownPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopoverViewController.swift; path = SwiftyPickerPopover/CountdownPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		41178761BB7A14655AB51D688587D38A /* Pods-manager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-manager-frameworks.sh"; sourceTree = "<group>"; };
+		435B314726A0FF430C7A3E0610407FB4 /* AbstractPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractPickerPopoverViewController.swift; path = SwiftyPickerPopover/AbstractPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		46432436B7DFE7A06D4CADCD9652B3E2 /* Pods-manager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-manager-acknowledgements.plist"; sourceTree = "<group>"; };
+		49D4073F855ECF9F0E5A68890B2B985F /* ColumnStringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopoverViewController.swift; path = SwiftyPickerPopover/ColumnStringPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		5C9F70D8B488386A756D393DC0EC632F /* DatePickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopoverViewController.swift; path = SwiftyPickerPopover/DatePickerPopoverViewController.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B34AE533323DBF3E8890431A7D5247 /* Pods-manager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-manager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7065D96379F7F931267D0C20AB45DF4D /* DatePickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DatePickerPopover.storyboard; path = Base.lproj/DatePickerPopover.storyboard; sourceTree = "<group>"; };
+		794F30C24E66A090D0E42C6845C1331D /* SwiftyPickerPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyPickerPopover.framework; path = SwiftyPickerPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1CC1739A2E33B4DDF19EE015A1B19B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CBC852E4E805EC32CB6D1B949CD6E5 /* CountdownPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CountdownPickerPopover.storyboard; path = Base.lproj/CountdownPickerPopover.storyboard; sourceTree = "<group>"; };
+		890FB7250E573C5672960E7FD3FBFBAC /* Pods_manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_manager.framework; path = "Pods-manager.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897A1C1D93FEA8B6D722F1636BE493CD /* SwiftyPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyPickerPopover.modulemap; sourceTree = "<group>"; };
+		92EDD88D926F3695F7608B99D179931B /* AbstractPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = AbstractPopover.storyboard; path = SwiftyPickerPopover/AbstractPopover.storyboard; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DED6E9711E382AE1794BA6480A2BBF /* SwiftyPickerPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-prefix.pch"; sourceTree = "<group>"; };
+		B0DBA83A9E1A973098B6FAB263AB5858 /* DatePickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopover.swift; path = SwiftyPickerPopover/DatePickerPopover.swift; sourceTree = "<group>"; };
+		BA16C91E9435ECD04F1C5F94D71C3F25 /* CountdownPickerPopover.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CountdownPickerPopover.strings; path = ja.lproj/CountdownPickerPopover.strings; sourceTree = "<group>"; };
+		BB6E7DB5F7394CF18AB1E18CA07FA291 /* Pods-manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-manager.debug.xcconfig"; sourceTree = "<group>"; };
+		BD97D1DDEA55BBE6D2818234DF18B850 /* Pods-manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-manager.modulemap"; sourceTree = "<group>"; };
+		C374B37BD19F75235590BCE7AA2CC5ED /* StringPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = StringPickerPopover.storyboard; path = Base.lproj/StringPickerPopover.storyboard; sourceTree = "<group>"; };
+		C6CE36A93D34667BAC9F44B36912899A /* SwiftyPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyPickerPopover-dummy.m"; sourceTree = "<group>"; };
+		CCA91E0F12AFA9FB6C8A01671D6368AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD37941277C5318FD7354E06B214F4E0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D12AA5F307A083D1E22E6F56AE6A6E7A /* ColumnStringPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ColumnStringPickerPopover.storyboard; path = SwiftyPickerPopover/ColumnStringPickerPopover.storyboard; sourceTree = "<group>"; };
+		DBFBBABEC12EC3F1FB977D90F7F99836 /* ColumnStringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopover.swift; path = SwiftyPickerPopover/ColumnStringPickerPopover.swift; sourceTree = "<group>"; };
+		E1D86ADCEE4337B8D8B8E0201E186221 /* Pods-manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-manager-dummy.m"; sourceTree = "<group>"; };
+		E2C0BBC258ED02D68C46139246BD68E1 /* CountdownPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopover.swift; path = SwiftyPickerPopover/CountdownPickerPopover.swift; sourceTree = "<group>"; };
+		ED8173375097C5F3278D8E43D875201C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5657AAF0EFF44D311100BD2868C99E0 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "SwiftyPickerPopover/String+Extension.swift"; sourceTree = "<group>"; };
+		F75111F587C8B8ED9256AED93E003B06 /* SwiftyPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3432A5B36278DA99434CB183E37FC270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CFBDFD5B225B78A227916C897EAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA13E17B802144399395FE8F7A1659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C3B9BBEA731446B29197274B143DD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15139F46F16D2A978567480E33B525BD /* Pods-manager */ = {
+			isa = PBXGroup;
+			children = (
+				CCA91E0F12AFA9FB6C8A01671D6368AA /* Info.plist */,
+				BD97D1DDEA55BBE6D2818234DF18B850 /* Pods-manager.modulemap */,
+				66B34AE533323DBF3E8890431A7D5247 /* Pods-manager-acknowledgements.markdown */,
+				46432436B7DFE7A06D4CADCD9652B3E2 /* Pods-manager-acknowledgements.plist */,
+				E1D86ADCEE4337B8D8B8E0201E186221 /* Pods-manager-dummy.m */,
+				41178761BB7A14655AB51D688587D38A /* Pods-manager-frameworks.sh */,
+				23325D9803EFCDE150E779709182DB60 /* Pods-manager-resources.sh */,
+				31020307B8A2A5B7194171145553AD59 /* Pods-manager-umbrella.h */,
+				BB6E7DB5F7394CF18AB1E18CA07FA291 /* Pods-manager.debug.xcconfig */,
+				352B7F0017323346B6D21E69660FFCB0 /* Pods-manager.release.xcconfig */,
+			);
+			name = "Pods-manager";
+			path = "Target Support Files/Pods-manager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B932BBA663AA4D1F9A18784885573C0F /* Pods */,
+				E7C3B05D9B7474C86F04C4D56E1E2ED6 /* Products */,
+				9E91D6CAA5543FD8E2F58FB365AE53DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E91D6CAA5543FD8E2F58FB365AE53DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15139F46F16D2A978567480E33B525BD /* Pods-manager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F703DDE99684E25E749AB00B467FDE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1CC1739A2E33B4DDF19EE015A1B19B /* Info.plist */,
+				897A1C1D93FEA8B6D722F1636BE493CD /* SwiftyPickerPopover.modulemap */,
+				36B170FB4BEF47942762F502FF33EE76 /* SwiftyPickerPopover.xcconfig */,
+				C6CE36A93D34667BAC9F44B36912899A /* SwiftyPickerPopover-dummy.m */,
+				A4DED6E9711E382AE1794BA6480A2BBF /* SwiftyPickerPopover-prefix.pch */,
+				F75111F587C8B8ED9256AED93E003B06 /* SwiftyPickerPopover-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyPickerPopover";
+			sourceTree = "<group>";
+		};
+		A5977E126B6F23E903C41216E113ED35 /* SwiftyPickerPopover */ = {
+			isa = PBXGroup;
+			children = (
+				435B314726A0FF430C7A3E0610407FB4 /* AbstractPickerPopoverViewController.swift */,
+				10F112294A35DF2489DD303297C31FE0 /* AbstractPopover.swift */,
+				DBFBBABEC12EC3F1FB977D90F7F99836 /* ColumnStringPickerPopover.swift */,
+				49D4073F855ECF9F0E5A68890B2B985F /* ColumnStringPickerPopoverViewController.swift */,
+				E2C0BBC258ED02D68C46139246BD68E1 /* CountdownPickerPopover.swift */,
+				3A8410E2236D9ECDFF0A4607A679C6DC /* CountdownPickerPopoverViewController.swift */,
+				B0DBA83A9E1A973098B6FAB263AB5858 /* DatePickerPopover.swift */,
+				5C9F70D8B488386A756D393DC0EC632F /* DatePickerPopoverViewController.swift */,
+				244F0D8709D36D2E288749059B986E2B /* DispatchQueue+Extension.swift */,
+				F5657AAF0EFF44D311100BD2868C99E0 /* String+Extension.swift */,
+				124E81B2B0D589D2CA3E056C408F07C8 /* StringPickerPopover.swift */,
+				1E8285AA19E7EF5AEAEBF4EDA5B67EF3 /* StringPickerPopoverViewController.swift */,
+				DC534A92C860446723C5D35A9A2CDD59 /* Resources */,
+				9F703DDE99684E25E749AB00B467FDE7 /* Support Files */,
+			);
+			name = SwiftyPickerPopover;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+		B932BBA663AA4D1F9A18784885573C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5977E126B6F23E903C41216E113ED35 /* SwiftyPickerPopover */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC534A92C860446723C5D35A9A2CDD59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92EDD88D926F3695F7608B99D179931B /* AbstractPopover.storyboard */,
+				D12AA5F307A083D1E22E6F56AE6A6E7A /* ColumnStringPickerPopover.storyboard */,
+				63E357A25F74827FAFE0C826F0F133D9 /* CountdownPickerPopover.storyboard */,
+				10193F71DD011CBE31390DD82F3EA03F /* DatePickerPopover.storyboard */,
+				4165CCC0D6922F82EFAA9CE2BB9201DF /* Localizable.strings */,
+				3714A24B1B6577EF70D4E2BC498744C9 /* StringPickerPopover.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E7C3B05D9B7474C86F04C4D56E1E2ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890FB7250E573C5672960E7FD3FBFBAC /* Pods_manager.framework */,
+				794F30C24E66A090D0E42C6845C1331D /* SwiftyPickerPopover.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B6BE18B3B7A9127CBD4EC191940D2DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1C438348C6DAFB1E6F5BA2CA564876 /* SwiftyPickerPopover-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921710EC91AF3985D795F337A14013FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4027C4B52627363090ECCC57E48D6F /* Pods-manager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2523B07F70BE617DA52E728A6CD6F438 /* Pods-manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359E47C1DE2D35495D66F66C98D09471 /* Build configuration list for PBXNativeTarget "Pods-manager" */;
+			buildPhases = (
+				8C04690E9C4AD943328B7C5CC3313C6A /* Sources */,
+				A3FA13E17B802144399395FE8F7A1659 /* Frameworks */,
+				921710EC91AF3985D795F337A14013FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44CCD1DCFF565C4845269548606818E /* PBXTargetDependency */,
+			);
+			name = "Pods-manager";
+			productName = "Pods-manager";
+			productReference = 890FB7250E573C5672960E7FD3FBFBAC /* Pods_manager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C89F2BD9931F060F0E001D7C69D36029 /* SwiftyPickerPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AF19B733887E3C4C396F00905A8606 /* Build configuration list for PBXNativeTarget "SwiftyPickerPopover" */;
+			buildPhases = (
+				27D930935E43901EC28D1759EC68FE0E /* Sources */,
+				3432A5B36278DA99434CB183E37FC270 /* Frameworks */,
+				3C914AF21BB7C293F75F5E4F470642C4 /* Resources */,
+				5B6BE18B3B7A9127CBD4EC191940D2DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyPickerPopover;
+			productName = SwiftyPickerPopover;
+			productReference = 794F30C24E66A090D0E42C6845C1331D /* SwiftyPickerPopover.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E7C3B05D9B7474C86F04C4D56E1E2ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2523B07F70BE617DA52E728A6CD6F438 /* Pods-manager */,
+				C89F2BD9931F060F0E001D7C69D36029 /* SwiftyPickerPopover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C914AF21BB7C293F75F5E4F470642C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03BA39149AA9F4E30012F00193BF0F5 /* AbstractPopover.storyboard in Resources */,
+				8DA61D346C46DB4DEDB18F0062E00857 /* ColumnStringPickerPopover.storyboard in Resources */,
+				0CEDB2769FC5A357DE90670322FD2C5C /* CountdownPickerPopover.storyboard in Resources */,
+				C2E9573420A5A96CEDB1897F93E7616C /* DatePickerPopover.storyboard in Resources */,
+				3B62CA6B820C5FD374CD7F0FECC57FF2 /* Localizable.strings in Resources */,
+				BEE41942EB5EAE1E43A44BFAB1EFC86A /* StringPickerPopover.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D930935E43901EC28D1759EC68FE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B85DA4DF55244CF8FD41FDB6EFC3D /* AbstractPickerPopoverViewController.swift in Sources */,
+				734CDEDE1450836D4767E7C8182B718C /* AbstractPopover.swift in Sources */,
+				44BAF8D6532B43515A57147D13EFDE31 /* ColumnStringPickerPopover.swift in Sources */,
+				49CFDAD05B034793F8F868C4C451260D /* ColumnStringPickerPopoverViewController.swift in Sources */,
+				D1F76213B1C9D2293D75217990C695FF /* CountdownPickerPopover.swift in Sources */,
+				5F492F02CEDFFFDFD7F8D3042F64F0D5 /* CountdownPickerPopoverViewController.swift in Sources */,
+				64C63527E2568FE590BE4CE465C37C70 /* DatePickerPopover.swift in Sources */,
+				B6510968B55A5A3542BAB117E4080BCF /* DatePickerPopoverViewController.swift in Sources */,
+				5D7B414016D74774E14D44654B5A488F /* DispatchQueue+Extension.swift in Sources */,
+				1910F82A610DCAAFEA7F216B8AFDB044 /* String+Extension.swift in Sources */,
+				8B7BB35BF4E6C6158F75ED5286B7ABC8 /* StringPickerPopover.swift in Sources */,
+				D6EEE8388A95B2506398759C2E2AFB06 /* StringPickerPopoverViewController.swift in Sources */,
+				F3127F8E0A5B2AC92EDEF870C33B289D /* SwiftyPickerPopover-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C04690E9C4AD943328B7C5CC3313C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3163282B152C87E7CBFA05C7261AC45 /* Pods-manager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44CCD1DCFF565C4845269548606818E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyPickerPopover;
+			target = C89F2BD9931F060F0E001D7C69D36029 /* SwiftyPickerPopover */;
+			targetProxy = 1362F651B71F12045A2E2C643AA5803B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10193F71DD011CBE31390DD82F3EA03F /* DatePickerPopover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7065D96379F7F931267D0C20AB45DF4D /* DatePickerPopover.storyboard */,
+				22AFA5A53612F0273ACDF9F742106598 /* DatePickerPopover.strings */,
+			);
+			name = DatePickerPopover.storyboard;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+		3714A24B1B6577EF70D4E2BC498744C9 /* StringPickerPopover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C374B37BD19F75235590BCE7AA2CC5ED /* StringPickerPopover.storyboard */,
+			);
+			name = StringPickerPopover.storyboard;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+		4165CCC0D6922F82EFAA9CE2BB9201DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8173375097C5F3278D8E43D875201C /* Localizable.strings */,
+				CD37941277C5318FD7354E06B214F4E0 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+		63E357A25F74827FAFE0C826F0F133D9 /* CountdownPickerPopover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBC852E4E805EC32CB6D1B949CD6E5 /* CountdownPickerPopover.storyboard */,
+				BA16C91E9435ECD04F1C5F94D71C3F25 /* CountdownPickerPopover.strings */,
+			);
+			name = CountdownPickerPopover.storyboard;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4126DB9139196B9F2A4F1E807C84E78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6E7DB5F7394CF18AB1E18CA07FA291 /* Pods-manager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-manager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-manager/Pods-manager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_manager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5595D745F3A7DBF1976F395B61FBCA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B170FB4BEF47942762F502FF33EE76 /* SwiftyPickerPopover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyPickerPopover/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyPickerPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9740EB442B33EFE2E55379763A2510B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B170FB4BEF47942762F502FF33EE76 /* SwiftyPickerPopover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyPickerPopover/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyPickerPopover/SwiftyPickerPopover.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyPickerPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC000E4F0386DC0E1CB09CEA4C18B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352B7F0017323346B6D21E69660FFCB0 /* Pods-manager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-manager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-manager/Pods-manager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_manager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359E47C1DE2D35495D66F66C98D09471 /* Build configuration list for PBXNativeTarget "Pods-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4126DB9139196B9F2A4F1E807C84E78D /* Debug */,
+				FC000E4F0386DC0E1CB09CEA4C18B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AF19B733887E3C4C396F00905A8606 /* Build configuration list for PBXNativeTarget "SwiftyPickerPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9740EB442B33EFE2E55379763A2510B4 /* Debug */,
+				5595D745F3A7DBF1976F395B61FBCA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
