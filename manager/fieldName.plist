@@ -12,13 +12,46 @@
 			<string>選択E群</string>
 		</array>
 		<array>
-			<string>hoge</string>
+			<string>必修</string>
+			<string>選択A群</string>
+			<string>選択B群</string>
+			<string>選択C群</string>
+			<string>選択D群</string>
+			<string>選択E群</string>
 		</array>
-		<array/>
-		<array/>
-		<array/>
-		<array/>
-		<array/>
+		<array>
+			<string>必修</string>
+			<string>選択A群</string>
+			<string>選択B群</string>
+			<string>選択C群</string>
+			<string>選択D群</string>
+			<string>選択E群</string>
+		</array>
+		<array>
+			<string>必修</string>
+			<string>選択A群</string>
+			<string>選択B群</string>
+		</array>
+		<array>
+			<string>必修</string>
+			<string>選択A群</string>
+			<string>選択B群</string>
+			<string>選択C群</string>
+			<string>選択D群</string>
+		</array>
+		<array>
+			<string>必修</string>
+			<string>選択A群</string>
+			<string>選択B群</string>
+			<string>選択C群</string>
+		</array>
+		<array>
+			<string>工学基礎</string>
+			<string>化学工学基礎</string>
+			<string>専門基礎A</string>
+			<string>専門基礎B</string>
+			<string>専門</string>
+		</array>
 	</array>
 	<array/>
 	<array/>

@@ -18,6 +18,7 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     var dep:Int!
     var major:Int!
     var selectedField:Int!
+    let ud = UserDefaults.standard
     
     //セルを編集して返す cell数分呼ばれてる indexPath.row(0から始まる)がそんときのインデックス
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
@@ -25,23 +26,19 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         // Cell はストーリーボードで設定したセルのID
         let testCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         
-//        let ud = UserDefaults.standard
-//        var count:Int = 0
-//
-//        if (ud.object(forKey: "unitsDic") != nil){
-//            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
-//            
-//            print(indexPath.row)
-//            for (_,data) in unitsArr[major][indexPath.row]{
-//                if data == true{count += 2}
-//            }
-//        }        
+        var count:Int = 0
+        if (ud.object(forKey: "unitsDic") != nil){
+            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
+            for (_,data) in unitsArr[major][indexPath.row]{
+                if data == true{count += 2}
+            }
+        }
         
-        let label = testCell.contentView.viewWithTag(1) as! UILabel
-        label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
-//        label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row] + "\(count)"
-        
-        
+        let fieldLabel = testCell.contentView.viewWithTag(1) as! UILabel
+        let numLabel = testCell.contentView.viewWithTag(2) as! UILabel
+//        label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
+        fieldLabel.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
+        numLabel.text = "\(count)"
         
         return testCell
     }
@@ -67,6 +64,9 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        if (ud.object(forKey: "unitsDic") != nil){
+            
+        }
         fieldCollection.reloadData()
     }
     
@@ -85,6 +85,8 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
 
         let path = Bundle.main.path(forResource: "fieldName", ofType: "plist")
         fieldArr = NSArray(contentsOfFile: path!) as! [[[String]]]
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
