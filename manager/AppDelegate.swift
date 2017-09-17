@@ -12,14 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var profile:(dep:Int, major:Int) = (0,0)
+    //var profile:(dep:Int, major:Int) = (0,0)
 
     // ここに初期化処理を書く
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        // UserDefaultsを使ってフラグを保持する
+
         let userDefault = UserDefaults.standard
-        // "firstLaunch"をキーに、Bool型の値を保持する
+        // "homeLaunch"をキーに、Bool型の値を保持する
         let dict = ["homeLaunch": true]
         // デフォルト値登録
         // ※すでに値が更新されていた場合は、更新後の値のままになる

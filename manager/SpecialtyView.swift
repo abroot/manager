@@ -13,33 +13,44 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     
     @IBOutlet weak var fieldCollection: UICollectionView!
+    @IBOutlet weak var profLabel: UILabel!
     var fieldArr:[[[String]]] = [[[]]]
     var unitsArr = [[Dictionary<String, Bool>]]()
     var dep:Int!
     var major:Int!
     var selectedField:Int!
+    var sum:Int = 0
     let ud = UserDefaults.standard
     
-    //セルを編集して返す cell数分呼ばれてる indexPath.row(0から始まる)がそんときのインデックス
+    //セルを編集して返す cell数分呼ばれてる indexPath.row(0から始まる)が各セルのインデックス
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
         
-        // Cell はストーリーボードで設定したセルのID
         let testCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
-        
-        var count:Int = 0
-        if (ud.object(forKey: "unitsDic") != nil){
-            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
-            for (_,data) in unitsArr[major][indexPath.row]{
-                if data == true{count += 2}
-            }
-        }
-        
         let fieldLabel = testCell.contentView.viewWithTag(1) as! UILabel
         let numLabel = testCell.contentView.viewWithTag(2) as! UILabel
-//        label.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
-        fieldLabel.text = fieldArr[dep][major][(indexPath as NSIndexPath).row]
-        numLabel.text = "\(count)"
         
+//        print(indexPath.row)
+//        print(fieldArr[dep][major].count)
+        
+        if indexPath.row == fieldArr[dep][major].count{
+            fieldLabel.textColor = UIColor.red
+            fieldLabel.text = "合計"
+            numLabel.textColor = UIColor.red
+            numLabel.text = "\(sum)"
+            
+        }else{
+            var count:Int = 0
+            if (ud.object(forKey: "unitsDic") != nil){
+                for (_,data) in unitsArr[major][indexPath.row]{
+                    if data == true{count += 2}
+                }
+            }
+            sum += count
+            fieldLabel.textColor = UIColor.darkGray
+            fieldLabel.text = fieldArr[dep][major][indexPath.row]
+            numLabel.textColor = UIColor.darkGray
+            numLabel.text = "\(count)"
+        }
         return testCell
     }
     
@@ -49,9 +60,8 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         performSegue(withIdentifier: "toList", sender: nil)
     }
     
-    //セクション数？
+    //セクション数
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // section数は１つ
         return 1
     }
     
@@ -60,14 +70,48 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         let ud = UserDefaults.standard
         dep = ud.integer(forKey: "department")
         major = ud.integer(forKey: "major")
-        return fieldArr[dep][major].count
+        
+        //print("aaa") 最初だけdidLoadとwillのreloadで2回呼ばれている
+        return fieldArr[dep][major].count+1 //+1 は合計表示用セル
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if (ud.object(forKey: "unitsDic") != nil){
+        sum = 0
+        
+        if (ud.object(forKey: "department") != nil) || (ud.object(forKey: "major") != nil){
             
+            let SM = SelectMajor()
+            let depName:String = SM.depArray[ud.integer(forKey: "department")]
+            var majName:String = ""
+            
+            switch ud.integer(forKey: "department") {
+            case 0:
+                majName = SM.engineering[ud.integer(forKey: "major")]
+            case 1:
+                majName = SM.science[ud.integer(forKey: "major")]
+            case 2:
+                majName = SM.agriculture[ud.integer(forKey: "major")]
+            case 3:
+                majName = SM.education[ud.integer(forKey: "major")]
+            case 4:
+                majName = SM.law[ud.integer(forKey: "major")]
+            default:
+                break
+            }
+            
+            profLabel.text = "\(depName)  \(majName)"
         }
-        fieldCollection.reloadData()
+
+        
+        //reload前にunitsArrを最新に
+        if (ud.object(forKey: "unitsDic") != nil){
+            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
+            fieldCollection.reloadData()
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        ud.set(sum, forKey: "speSum")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
@@ -82,11 +126,14 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //unitsArr　初期準備
+        if (ud.object(forKey: "unitsDic") != nil){
+            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
+        }
+        
         let path = Bundle.main.path(forResource: "fieldName", ofType: "plist")
         fieldArr = NSArray(contentsOfFile: path!) as! [[[String]]]
-        
-        
     }
     
     override func didReceiveMemoryWarning() {

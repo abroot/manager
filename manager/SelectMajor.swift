@@ -22,41 +22,43 @@ class SelectMajor: UIViewController{
     let education:[String] = ["初等教育コース","中等教育コース"]
     let law:[String] = ["人文","法経社会"]
     
+    var profile:(dep:Int, major:Int) = (0,0)
+    
     //appdelegateにアクセス
-    let myApp = UIApplication.shared.delegate as! AppDelegate
+    //let myApp = UIApplication.shared.delegate as! AppDelegate
     
     @IBAction func actionButton00(_ sender: UIButton) {
-        myApp.profile.dep = 0
-        depSelect(depNum: myApp.profile.dep)
+        profile.dep = 0
+        depSelect(depNum: profile.dep)
         majorSelect(sender: sender)
         
     }
     @IBAction func actionButton01(_ sender: UIButton) {
-        myApp.profile.dep = 1
-        depSelect(depNum: myApp.profile.dep)
+        profile.dep = 1
+        depSelect(depNum: profile.dep)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton02(_ sender: UIButton) {
-        myApp.profile.dep = 2
-        depSelect(depNum: myApp.profile.dep)
+        profile.dep = 2
+        depSelect(depNum: profile.dep)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton03(_ sender: UIButton) {
-        myApp.profile.dep = 3
-        depSelect(depNum: myApp.profile.dep)
+        profile.dep = 3
+        depSelect(depNum: profile.dep)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton04(_ sender: UIButton) {
-        myApp.profile.dep = 4
-        depSelect(depNum: myApp.profile.dep)
+        profile.dep = 4
+        depSelect(depNum: profile.dep)
         majorSelect(sender: sender)
     }
     
     //保存　ユーザデフォに学部学科値を格納　homeに戻る
     @IBAction func seveProfile(_ sender: UIButton) {
         let userDefault = UserDefaults.standard
-        userDefault.set(myApp.profile.dep, forKey: "department")
-        userDefault.set(myApp.profile.major, forKey: "major")
+        userDefault.set(profile.dep, forKey: "department")
+        userDefault.set(profile.major, forKey: "major")
     }
     
     //コード短くできそう
@@ -89,9 +91,7 @@ class SelectMajor: UIViewController{
             .setDoneButton(title:"done", action: {
                 (popover, selectedRow, selectedString) in
                 self.majorLabel.text = selectedString
-                self.myApp.profile.major = selectedRow
-//                print("done row \(selectedRow) \(selectedString)")
-            
+                self.profile.major = selectedRow
             })
             .setCancelButton(title:"cancel", action: { v in print("cancel")} )
         
@@ -100,27 +100,20 @@ class SelectMajor: UIViewController{
     
     func decideP()->StringPickerPopover{
         
-        switch myApp.profile.dep{
+        switch profile.dep{
         case 0:
-            let p = StringPickerPopover(title: "学科選択", choices: engineering)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: engineering)
         case 1:
-            let p = StringPickerPopover(title: "学科選択", choices: science)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: science)
         case 2:
-            let p = StringPickerPopover(title: "学科選択", choices: agriculture)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: agriculture)
         case 3:
-            let p = StringPickerPopover(title: "学科選択", choices: education)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: education)
         case 4:
-            let p = StringPickerPopover(title: "学科選択", choices: law)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: law)
         default:
-            let p = StringPickerPopover(title: "学科選択", choices: depArray)
-            return p
+            return StringPickerPopover(title: "学科選択", choices: depArray)
         }
-        
     }
     
     override func viewDidLoad() {

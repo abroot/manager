@@ -20,6 +20,9 @@
 		0433B67A1F63CDF1000E989F /* frame02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0433B6791F63CDF1000E989F /* frame02.png */; };
 		0433B67C1F63D683000E989F /* SelectMajor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B67B1F63D683000E989F /* SelectMajor.swift */; };
 		046EE5E51F6D117000EF0E63 /* frame07.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EE5E41F6D116F00EF0E63 /* frame07.png */; };
+		046EE5E91F6E2B5800EF0E63 /* frame08.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EE5E81F6E2B5800EF0E63 /* frame08.png */; };
+		046EE5EB1F6E2CA600EF0E63 /* commons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046EE5EA1F6E2CA600EF0E63 /* commons.plist */; };
+		046EE5ED1F6E423600EF0E63 /* CommonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EE5EC1F6E423600EF0E63 /* CommonList.swift */; };
 		047AE21D1F6429C800F848DD /* frame03.png in Resources */ = {isa = PBXBuildFile; fileRef = 047AE21B1F6429C800F848DD /* frame03.png */; };
 		047AE21E1F6429C900F848DD /* frame04.png in Resources */ = {isa = PBXBuildFile; fileRef = 047AE21C1F6429C800F848DD /* frame04.png */; };
 		049F39F61F68F83D0099EB3A /* UnitsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F39F51F68F83D0099EB3A /* UnitsList.swift */; };
@@ -47,6 +50,9 @@
 		0433B6791F63CDF1000E989F /* frame02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame02.png; sourceTree = "<group>"; };
 		0433B67B1F63D683000E989F /* SelectMajor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMajor.swift; sourceTree = "<group>"; };
 		046EE5E41F6D116F00EF0E63 /* frame07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame07.png; sourceTree = "<group>"; };
+		046EE5E81F6E2B5800EF0E63 /* frame08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame08.png; sourceTree = "<group>"; };
+		046EE5EA1F6E2CA600EF0E63 /* commons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = commons.plist; sourceTree = "<group>"; };
+		046EE5EC1F6E423600EF0E63 /* CommonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonList.swift; sourceTree = "<group>"; };
 		047AE21B1F6429C800F848DD /* frame03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame03.png; sourceTree = "<group>"; };
 		047AE21C1F6429C800F848DD /* frame04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame04.png; sourceTree = "<group>"; };
 		049F39F51F68F83D0099EB3A /* UnitsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitsList.swift; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 		0433B6341F62584F000E989F /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				046EE5E81F6E2B5800EF0E63 /* frame08.png */,
 				046EE5E41F6D116F00EF0E63 /* frame07.png */,
 				049F3A171F6947400099EB3A /* check.png */,
 				049F3A151F69449C0099EB3A /* gray.png */,
@@ -115,6 +122,8 @@
 				047AE21C1F6429C800F848DD /* frame04.png */,
 				04BE90BE1F651054009C2C5D /* frame05.png */,
 				04BE90C01F651504009C2C5D /* frame06.png */,
+				046EE5EA1F6E2CA600EF0E63 /* commons.plist */,
+				046EE5EC1F6E423600EF0E63 /* CommonList.swift */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -200,11 +209,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0433B6421F62584F000E989F /* LaunchScreen.storyboard in Resources */,
+				046EE5E91F6E2B5800EF0E63 /* frame08.png in Resources */,
 				049F3A161F69449D0099EB3A /* gray.png in Resources */,
 				049F3A181F6947400099EB3A /* check.png in Resources */,
 				0433B67A1F63CDF1000E989F /* frame02.png in Resources */,
 				0433B63F1F62584F000E989F /* Assets.xcassets in Resources */,
 				0433B64C1F6274B6000E989F /* kadai.png in Resources */,
+				046EE5EB1F6E2CA600EF0E63 /* commons.plist in Resources */,
 				04BE90BF1F651054009C2C5D /* frame05.png in Resources */,
 				047AE21D1F6429C800F848DD /* frame03.png in Resources */,
 				04C4C37E1F67B1DC00826D30 /* fieldName.plist in Resources */,
@@ -283,6 +294,7 @@
 				0433B6361F62584F000E989F /* AppDelegate.swift in Sources */,
 				0433B6381F62584F000E989F /* HomeView.swift in Sources */,
 				0433B67C1F63D683000E989F /* SelectMajor.swift in Sources */,
+				046EE5ED1F6E423600EF0E63 /* CommonList.swift in Sources */,
 				0433B64A1F625A9E000E989F /* SpecialtyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
