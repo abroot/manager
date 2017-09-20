@@ -13,8 +13,10 @@ class UnitsList: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var countLabel: UILabel!
     var unitsArr = [[Dictionary<String, Bool>]]()
+    var dep:Int!
     var maj:Int!
     var field:Int!
+    var fileName:String = ""
     
     //セル数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -72,17 +74,34 @@ class UnitsList: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBAction func preserve(_ sender: UIButton) {
         let ud = UserDefaults.standard
-        ud.set(unitsArr, forKey: "unitsDic")
+        
+        
+        ud.set(unitsArr, forKey: fileName)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        switch dep {
+        case 0:
+            fileName = "engineer"
+        case 1:
+            fileName = "science"
+        case 2:
+            fileName = "agri"
+        case 3:
+            fileName = "edu"
+        case 4:
+            fileName = "law"
+        default:
+            break
+        }
+        
         let ud = UserDefaults.standard
-        if (ud.object(forKey: "unitsDic") != nil){
-            unitsArr = ud.object(forKey: "unitsDic") as! [[Dictionary<String, Bool>]]
+        if (ud.object(forKey: fileName) != nil){
+            unitsArr = ud.object(forKey: fileName) as! [[Dictionary<String, Bool>]]
         }else{
-            let path = Bundle.main.path(forResource: "engineer", ofType: "plist")
+            let path = Bundle.main.path(forResource: fileName, ofType: "plist")
             unitsArr = NSArray(contentsOfFile: path!) as! [[Dictionary<String, Bool>]]
         }
         

@@ -5,19 +5,24 @@
 //  Created by 福田隆史 on 2017/09/08.
 //  Copyright © 2017年 f.R. All rights reserved.
 //
-
+import Foundation
 import UIKit
 
 class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate {
-    
     
     @IBOutlet weak var comCollection: UICollectionView!
     let commonArr:[[String]] = [["初年次教育科目","グロ-バル教育科目"],[],["初修外国語","選択科目"],["実験科目","選択科目","基礎教育入門科目"],["統合1","統合2"]]
     let secName:[String] = ["必修","選択必修","人文・社会科学分野","自然科学分野","教養活用科目"]
     var selectedField:IndexPath!
     var unitsArr = [[Dictionary<String, Bool>]]()
+    var denom:[[[Int]]]!
+    var reloadFlag:Bool = false
+    var dep:Int!
+    var major:Int!
+    var SHdenom:Int = 0
     var sum:Int = 0
     let ud = UserDefaults.standard
+    var cellIndex:Int = 0
     
     //セル生成
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
@@ -25,6 +30,7 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
         let testCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         let fieldLabel = testCell.contentView.viewWithTag(1) as! UILabel
         let numLabel = testCell.contentView.viewWithTag(2) as! UILabel
+        let denomLabel = testCell.contentView.viewWithTag(3) as! UILabel
         
         var count:Int = 0
         if (ud.object(forKey: "commonDic") != nil){
@@ -33,9 +39,32 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
             }
         }
         
-//        sum += count
-//        print(sum)
+        switch indexPath.section {
+        case 0:
+            denomLabel.text = "/\(denom[dep][major][indexPath.row])"
+        case 2:
+            if indexPath.row == 0 {
+                denomLabel.text = "/\(denom[dep][major][2])"
+            }else if indexPath.row == 1{
+                denomLabel.text = "/\(denom[dep][major][3])"
+            }
+        case 3:
+            if indexPath.row == 0 {
+                denomLabel.text = "/\(denom[dep][major][4])"
+            }else if indexPath.row == 1{
+                denomLabel.text = "/\(denom[dep][major][5])"
+            }else if indexPath.row == 2{
+                denomLabel.text = "/\(denom[dep][major][6])"
+            }
+        case 4:
+            denomLabel.text = ""
+            
+        default:
+            break
+        }
         
+//        print("hoge")
+//        denomLabel.text = "\(denom[dep][major][0])"
         numLabel.text = "\(count)"
         fieldLabel.text = commonArr[indexPath.section][indexPath.row]
         
@@ -70,15 +99,81 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
         default:
             return 0
         }
-        
     }
     
     //セクションの設定
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
-        let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header", for: indexPath)
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header", for: indexPath) as! MyCollectionReusableView
         
-        //ヘッダーごとに文字列変えたい
+//        var countH:Int = 0
+        var countS:Int = 0
+        var countK:Int = 0
+        if (ud.object(forKey: "commonDic") != nil){
+            
+//            for i in 0...unitsArr[0].count-1 {
+//                for (_,data) in unitsArr[0][i]{
+//                    if data == true{countH += 2}
+//                }
+//            }
+            
+            for j in 2...4{
+                for i in 0...unitsArr[j].count-1 {
+                    for (_,data) in unitsArr[j][i]{
+                        if data == true{countS += 2}
+                    }
+                }
+            }
+            
+            for i in 0...unitsArr[4].count-1 {
+                for (_,data) in unitsArr[4][i]{
+                    if data == true{countK += 2}
+                }
+            }
+            
+        }
+        
+        //あとで関数にまとめろ
+        switch indexPath.section {
+        case 0:
+            header.numLabel.text = ""
+            header.denomLabel.text = ""
+            header.secLabel.textColor = UIColor.black
+            header.secLabel.font = UIFont.systemFont(ofSize: 20.0)
+            header.secLabel.text = "\(secName[indexPath.section])"
+        case 1:
+            header.numLabel.textColor = UIColor.black
+            header.numLabel.font = UIFont.systemFont(ofSize: 23.0)
+            header.numLabel.text = "\(countS)"
+            
+            header.denomLabel.textColor = UIColor.darkGray
+            header.denomLabel.font = UIFont.systemFont(ofSize: 14.0)
+            header.denomLabel.text = " / \(SHdenom + 4)" //教養活用基礎の分母を加える
+            
+            header.secLabel.textColor = UIColor.black
+            header.secLabel.font = UIFont.systemFont(ofSize: 20.0)
+            header.secLabel.text = "\(secName[indexPath.section])"
+        case 2,3:
+            header.numLabel.text = ""
+            header.denomLabel.text = ""
+            header.secLabel.textColor = UIColor.darkGray
+            header.secLabel.font = UIFont.systemFont(ofSize: 14.0)
+            header.secLabel.text = "\(secName[indexPath.section])"
+        case 4:
+            header.numLabel.textColor = UIColor.black
+            header.numLabel.font = UIFont.systemFont(ofSize: 23.0)
+            header.numLabel.text = "\(countK)" //教養活用基礎の分母
+            
+            header.denomLabel.textColor = UIColor.darkGray
+            header.denomLabel.font = UIFont.systemFont(ofSize: 14.0)
+            header.denomLabel.text = " / 4"
+            
+            header.secLabel.textColor = UIColor.darkGray
+            header.secLabel.font = UIFont.systemFont(ofSize: 14.0)
+            header.secLabel.text = "\(secName[indexPath.section])"
+        default:
+            break
+        }
         
         return header
     }
@@ -88,7 +183,35 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
         //reload前にunitsArrを最新に
         if (ud.object(forKey: "commonDic") != nil){
             unitsArr = ud.object(forKey: "commonDic") as! [[Dictionary<String, Bool>]]
-            comCollection.reloadData()
+            print("aa")
+            
+            dep = ud.integer(forKey: "department")
+            major = ud.integer(forKey: "major")
+            
+            //いったんここでつくれ
+            switch dep {
+            case 0:
+                if major <= 4 {major = 0}else{major = 1}
+            case 2:
+                major = 0
+            case 3:
+                if major == 19 {major = 1}else{major = 0}
+            case 4:
+                major = 0
+            default:
+                break
+            }
+            
+            SHdenom = 0
+            for i in 2...6 {
+                SHdenom += denom[dep][major][i]
+            }
+
+            if reloadFlag == true{  //初回ページアクセス時はreloadしない
+                print("relooooooad")
+                comCollection.reloadData()
+            }
+            reloadFlag = true
         }
         
     }
@@ -104,7 +227,6 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
                 }
             }
         }
-        
         ud.set(count, forKey: "comSum")
     }
     
@@ -119,6 +241,33 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dep = ud.integer(forKey: "department")
+        major = ud.integer(forKey: "major")
+        
+        //いったんここでつくれ
+        switch dep {
+        case 0:
+            if major <= 4 {major = 0}else{major = 1}
+        case 2:
+            major = 0
+        case 3:
+            if major == 19 {major = 1}else{major = 0}
+        case 4:
+            major = 0
+        default:
+            break
+        }
+        
+        let path = Bundle.main.path(forResource: "comDenominator", ofType: "plist")
+        denom = NSArray(contentsOfFile: path!) as! [[[Int]]]
+        print(denom)
+        
+        //選択必修分母
+        for i in 2...6 {
+            SHdenom += denom[dep][major][i]
+        }
+        
         //unitsArr　初期準備
         if (ud.object(forKey: "commonDic") != nil){
             unitsArr = ud.object(forKey: "commonDic") as! [[Dictionary<String, Bool>]]

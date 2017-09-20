@@ -41,35 +41,39 @@ class HomeView: UIViewController {
             //let depNum:Int = ud.integer(forKey: "depatment")
             //let majorNum:Int = ud.integer(forKey: "major")
             let SM = SelectMajor()
+            var majName:String = ""
             depLabel.text = SM.depArray[ud.integer(forKey: "department")]
             
             switch ud.integer(forKey: "department") {
             case 0:
-                majorLabel.text = SM.engineering[ud.integer(forKey: "major")]
+                majName = SM.engineering[ud.integer(forKey: "major")]
             case 1:
-                majorLabel.text = SM.science[ud.integer(forKey: "major")]
+                majName = SM.science[ud.integer(forKey: "major")]
             case 2:
-                majorLabel.text = SM.agriculture[ud.integer(forKey: "major")]
+                majName = SM.agriculture[ud.integer(forKey: "major")]
             case 3:
-                majorLabel.text = SM.education[ud.integer(forKey: "major")]
+                majName = SM.education[ud.integer(forKey: "major")]
             case 4:
-                majorLabel.text = SM.law[ud.integer(forKey: "major")]
+                majName = SM.law[ud.integer(forKey: "major")]
             default:
                 break
             }
-        }
+            majorLabel.text = majName
         
-        if ud.object(forKey: "comSum") != nil {
-            comSum = ud.integer(forKey: "comSum")
-        }
+            if ud.object(forKey: "comSum") != nil {
+                comSum = ud.integer(forKey: "comSum")
+            }
         
-        if ud.object(forKey: "speSum") != nil {
-            speSum = ud.integer(forKey: "speSum")
-        }
+            if ud.object(forKey: majName) != nil {
+                speSum = ud.integer(forKey: majName)
+            }else{
+                speSum = 0
+            }
         
-        comSumLabel.text = "\(comSum)"
-        speSumLabel.text = "\(speSum)"
-        allSum.text = "\(comSum + speSum)"
+            comSumLabel.text = "\(comSum)"
+            speSumLabel.text = "\(speSum)"
+            allSum.text = "\(comSum + speSum)"
+        }
     }
 
     @IBAction func backHome(_ segue:UIStoryboardSegue){}

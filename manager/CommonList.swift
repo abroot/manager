@@ -82,7 +82,7 @@ class CommonList: UIViewController, UITableViewDataSource, UITableViewDelegate {
         if (ud.object(forKey: "commonDic") != nil){
             unitsArr = ud.object(forKey: "commonDic") as! [[Dictionary<String, Bool>]]
         }else{
-            let path = Bundle.main.path(forResource: "commons", ofType: "plist")
+            let path = Bundle.main.path(forResource: "comUnitsList", ofType: "plist")
             unitsArr = NSArray(contentsOfFile: path!) as! [[Dictionary<String, Bool>]]
         }
         
