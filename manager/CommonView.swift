@@ -137,6 +137,9 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
         case 0:
             header.numLabel.text = ""
             header.denomLabel.text = ""
+            header.FAlabel.textColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
+            header.FAlabel.font = UIFont.fontAwesome(ofSize: 20)
+            header.FAlabel.text = String.fontAwesomeIcon(name: .edit)
             
             header.secLabel.textColor = UIColor.darkGray
             header.secLabel.textAlignment = .left
@@ -151,6 +154,10 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
             header.denomLabel.font = UIFont.systemFont(ofSize: 15.0)
             header.denomLabel.text = "/ \(SHdenom + 4)" //教養活用基礎の分母を加える
             
+            header.FAlabel.textColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
+            header.FAlabel.font = UIFont.fontAwesome(ofSize: 20)
+            header.FAlabel.text = String.fontAwesomeIcon(name: .edit)
+            
             header.secLabel.textAlignment = .left
             header.secLabel.textColor = UIColor.darkGray
             header.secLabel.font = UIFont.systemFont(ofSize: 15.0)
@@ -158,12 +165,14 @@ class CommonView: UIViewController,UICollectionViewDataSource, UICollectionViewD
         case 2,3:
             header.numLabel.text = ""
             header.denomLabel.text = ""
+            header.FAlabel.text = ""
             
             header.secLabel.textAlignment = .center
             header.secLabel.textColor = UIColor.darkGray
             header.secLabel.font = UIFont.systemFont(ofSize: 12.0)
             header.secLabel.text = "\(secName[indexPath.section])"
         case 4:
+            header.FAlabel.text = ""
             header.numLabel.textColor = UIColor.black
             header.numLabel.font = UIFont.systemFont(ofSize: 23.0)
             header.numLabel.text = "\(countK)"

@@ -13,5 +13,6 @@ class MyCollectionReusableView : UICollectionReusableView {
     @IBOutlet weak var secLabel: UILabel!
     @IBOutlet weak var numLabel: UILabel!
     @IBOutlet weak var denomLabel: UILabel!
+    @IBOutlet weak var FAlabel: UILabel!
     
 }
