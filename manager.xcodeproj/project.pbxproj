@@ -34,9 +34,13 @@
 		049F39F61F68F83D0099EB3A /* UnitsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F39F51F68F83D0099EB3A /* UnitsList.swift */; };
 		049F3A161F69449D0099EB3A /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 049F3A151F69449C0099EB3A /* gray.png */; };
 		049F3A181F6947400099EB3A /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 049F3A171F6947400099EB3A /* check.png */; };
+		04A66D6A1F777A2000650A97 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66D691F777A2000650A97 /* TabBarView.swift */; };
+		04BBAD7B1F74F2590083DFA7 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBAD7A1F74F2590083DFA7 /* FontAwesome_swift.framework */; };
 		04BE90BF1F651054009C2C5D /* frame05.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BE90BE1F651054009C2C5D /* frame05.png */; };
 		04BE90C11F651504009C2C5D /* frame06.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BE90C01F651504009C2C5D /* frame06.png */; };
 		04C4C37E1F67B1DC00826D30 /* fieldName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C4C37D1F67B1DC00826D30 /* fieldName.plist */; };
+		04DA674A1F73982E0010F76E /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DA67491F73982D0010F76E /* test.plist */; };
+		04DA674C1F74037C0010F76E /* sattun.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DA674B1F74037C0010F76E /* sattun.png */; };
 		6E355E4C0EC79D612901C813 /* Pods_manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFF91F59AE2119796D209FE /* Pods_manager.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +74,13 @@
 		049F39F51F68F83D0099EB3A /* UnitsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitsList.swift; sourceTree = "<group>"; };
 		049F3A151F69449C0099EB3A /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
 		049F3A171F6947400099EB3A /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		04A66D691F777A2000650A97 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		04BBAD7A1F74F2590083DFA7 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome_swift.framework; path = "../../../Library/Developer/Xcode/DerivedData/manager-djgduaugwehfnjeafzblfcgmlfqd/Build/Products/Debug-iphonesimulator/FontAwesome.swift/FontAwesome_swift.framework"; sourceTree = "<group>"; };
 		04BE90BE1F651054009C2C5D /* frame05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame05.png; sourceTree = "<group>"; };
 		04BE90C01F651504009C2C5D /* frame06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame06.png; sourceTree = "<group>"; };
 		04C4C37D1F67B1DC00826D30 /* fieldName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fieldName.plist; sourceTree = "<group>"; };
+		04DA67491F73982D0010F76E /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		04DA674B1F74037C0010F76E /* sattun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sattun.png; sourceTree = "<group>"; };
 		3EFF91F59AE2119796D209FE /* Pods_manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		857AD2E2F73748888097D56D /* Pods-manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-manager/Pods-manager.release.xcconfig"; sourceTree = "<group>"; };
 		D77B562BA7FF610E8B1DEDF0 /* Pods-manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manager/Pods-manager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BBAD7B1F74F2590083DFA7 /* FontAwesome_swift.framework in Frameworks */,
 				6E355E4C0EC79D612901C813 /* Pods_manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +120,7 @@
 		0433B6341F62584F000E989F /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				04DA674B1F74037C0010F76E /* sattun.png */,
 				0433B6351F62584F000E989F /* AppDelegate.swift */,
 				0433B67B1F63D683000E989F /* SelectMajor.swift */,
 				0433B6371F62584F000E989F /* HomeView.swift */,
@@ -142,6 +152,8 @@
 				046EE5E41F6D116F00EF0E63 /* frame07.png */,
 				046EE5E81F6E2B5800EF0E63 /* frame08.png */,
 				049D4BCC1F7239690085384A /* MyCollectionReusableView.swift */,
+				04DA67491F73982D0010F76E /* test.plist */,
+				04A66D691F777A2000650A97 /* TabBarView.swift */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 		07FAC276C0D9EC00CF087B6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04BBAD7A1F74F2590083DFA7 /* FontAwesome_swift.framework */,
 				3EFF91F59AE2119796D209FE /* Pods_manager.framework */,
 			);
 			name = Frameworks;
@@ -242,9 +255,11 @@
 				049D4BC91F700F910085384A /* edu.plist in Resources */,
 				047AE21E1F6429C900F848DD /* frame04.png in Resources */,
 				049D4BCB1F700F910085384A /* science.plist in Resources */,
+				04DA674A1F73982E0010F76E /* test.plist in Resources */,
 				0433B63D1F62584F000E989F /* Main.storyboard in Resources */,
 				0433B6741F63C55B000E989F /* frame01.png in Resources */,
 				049D4BCA1F700F910085384A /* law.plist in Resources */,
+				04DA674C1F74037C0010F76E /* sattun.png in Resources */,
 				041FD4871F66777B006F5F2F /* engineer.plist in Resources */,
 				046EE5E51F6D117000EF0E63 /* frame07.png in Resources */,
 				04BE90C11F651504009C2C5D /* frame06.png in Resources */,
@@ -294,10 +309,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-manager/Pods-manager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyPickerPopover/SwiftyPickerPopover.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyPickerPopover.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0433B63A1F62584F000E989F /* CommonView.swift in Sources */,
+				04A66D6A1F777A2000650A97 /* TabBarView.swift in Sources */,
 				049D4BCD1F7239690085384A /* MyCollectionReusableView.swift in Sources */,
 				049F39F61F68F83D0099EB3A /* UnitsList.swift in Sources */,
 				0433B6361F62584F000E989F /* AppDelegate.swift in Sources */,

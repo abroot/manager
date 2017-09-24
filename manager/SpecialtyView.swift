@@ -29,10 +29,12 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         let testCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         let fieldLabel = testCell.contentView.viewWithTag(1) as! UILabel
         let numLabel = testCell.contentView.viewWithTag(2) as! UILabel
+        let sumDenLabel = testCell.contentView.viewWithTag(3) as! UILabel
         
 //        print(indexPath.row)
 //        print(fieldArr[dep][major].count)
         
+        //教育の例外
         var check:Int!
         if dep == 3 {
             check = fieldArr[dep][0].count
@@ -41,6 +43,9 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         }
         
         if indexPath.row == check{
+            
+            let Home = HomeView()
+            sumDenLabel.text = "/\(Home.speDenomSelecter(dep: dep, maj: major))"
             fieldLabel.textColor = UIColor.red
             fieldLabel.text = "合計"
             numLabel.textColor = UIColor.red
@@ -49,13 +54,13 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         }else{
             var count:Int = 0
             if (ud.object(forKey: fileName) != nil){
-                print(major)
-                print(indexPath.row)
-                for (_,data) in unitsArr[major][indexPath.row]{
+                    for (_,data) in unitsArr[major][indexPath.row]{
                     if data == true{count += 2}
                 }
             }
             sum += count
+            
+            sumDenLabel.text = ""
             fieldLabel.textColor = UIColor.darkGray
             
             if dep == 3{
@@ -84,8 +89,6 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     // cell数を入れる、要素以上の数字を入れると表示でエラーとなる
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-//        dep = ud.integer(forKey: "department")
-//        major = ud.integer(forKey: "major")
         dep = ud.integer(forKey: "department")
         major = ud.integer(forKey: "major")
         switch dep {
@@ -108,41 +111,17 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
             unitsArr = ud.object(forKey: fileName) as! [[Dictionary<String, Bool>]]
         }
         
+        //教育はfield全部同じやから
         if dep == 3 {
             return fieldArr[dep][0].count+1
         }
         
-        //print("aaa") 最初だけ初期loadとwillAppearのreloadで2回呼ばれている
+        //print("aaa") 最初だけ初期didloadとwillAppearのreloadで2回呼ばれている
         return fieldArr[dep][major].count+1 //+1 は合計表示用セル
     }
     
     override func viewWillAppear(_ animated: Bool) {
         sum = 0
-        
-        if (ud.object(forKey: "department") != nil) || (ud.object(forKey: "major") != nil){
-            
-            let SM = SelectMajor()
-            let depName:String = SM.depArray[ud.integer(forKey: "department")]
-            var majName:String = ""
-            
-            switch ud.integer(forKey: "department") {
-            case 0:
-                majName = SM.engineering[ud.integer(forKey: "major")]
-            case 1:
-                majName = SM.science[ud.integer(forKey: "major")]
-            case 2:
-                majName = SM.agriculture[ud.integer(forKey: "major")]
-            case 3:
-                majName = SM.education[ud.integer(forKey: "major")]
-            case 4:
-                majName = SM.law[ud.integer(forKey: "major")]
-            default:
-                break
-            }
-            
-            profLabel.text = "\(depName)  \(majName)"
-        }
-
         fieldCollection.reloadData()
     }
     
@@ -150,6 +129,7 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         
         //該当学科名のudに保存
         let SM = SelectMajor()
+        let depName:String = SM.depArray[ud.integer(forKey: "department")]
         var sumNameBox:String = ""
         
 //        switch ud.integer(forKey: "department") {
@@ -167,7 +147,8 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
         default:
             break
         }
-
+        
+        profLabel.text = "\(depName) \(sumNameBox)"
         ud.set(sum, forKey: sumNameBox)
     }
     
@@ -191,7 +172,6 @@ class SpecialtyView: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     

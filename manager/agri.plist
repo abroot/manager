@@ -3,19 +3,366 @@
 <plist version="1.0">
 <array>
 	<array>
-		<dict/>
-		<dict/>
-		<dict/>
+		<dict>
+			<key>農学概論</key>
+			<false/>
+			<key>作物生産学概論</key>
+			<false/>
+			<key>農業経営経済学概論</key>
+			<false/>
+			<key>園芸生産学概論</key>
+			<false/>
+			<key>家畜生産学概論</key>
+			<false/>
+			<key>病害虫制御学概論</key>
+			<false/>
+			<key>遺伝学</key>
+			<false/>
+			<key>作物学</key>
+			<false/>
+			<key>植物生理学</key>
+			<false/>
+			<key>蔬菜園芸学</key>
+			<false/>
+			<key>果樹園芸学</key>
+			<false/>
+			<key>植物病理学</key>
+			<false/>
+			<key>畜産学</key>
+			<false/>
+			<key>熱帯作物学</key>
+			<false/>
+			<key>植物育種学</key>
+			<false/>
+			<key>鑑賞園芸学</key>
+			<false/>
+			<key>害虫学</key>
+			<false/>
+			<key>農業経営学</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>生物生産学特別実習</key>
+			<false/>
+			<key>農場実習1</key>
+			<false/>
+			<key>農場実習2</key>
+			<false/>
+			<key>植物生産学実験</key>
+			<false/>
+			<key>生物化学実験</key>
+			<false/>
+			<key>土壌学実験</key>
+			<false/>
+			<key>植物生産学特別実験</key>
+			<false/>
+			<key>欧文演習</key>
+			<false/>
+			<key>卒業論文</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>作物形態形成学</key>
+			<false/>
+			<key>園芸発育生理学</key>
+			<false/>
+			<key>昆虫学</key>
+			<false/>
+			<key>作物栽培環境論</key>
+			<false/>
+			<key>植物情報管理学</key>
+			<false/>
+			<key>園芸遺伝資源学</key>
+			<false/>
+			<key>植物感染分子微生物学</key>
+			<false/>
+			<key>工芸作物学</key>
+			<false/>
+			<key>園芸品種創生論</key>
+			<false/>
+			<key>生物的防除論</key>
+			<false/>
+			<key>民族植物学</key>
+			<false/>
+			<key>肥料学概論</key>
+			<false/>
+			<key>土壌科学</key>
+			<false/>
+			<key>青果保蔵学</key>
+			<false/>
+			<key>生物化学1</key>
+			<false/>
+			<key>農林気象学</key>
+			<false/>
+			<key>分子生物学</key>
+			<false/>
+			<key>園芸環境論</key>
+			<false/>
+			<key>園芸資源化学</key>
+			<false/>
+			<key>農業経済学</key>
+			<false/>
+			<key>家畜管理学</key>
+			<false/>
+			<key>応用微生物学</key>
+			<false/>
+			<key>生物生産機械学</key>
+			<false/>
+			<key>特別講義</key>
+			<false/>
+			<key>雑草防除学</key>
+			<false/>
+			<key>農業政策学</key>
+			<false/>
+			<key>植物生産学実地研修</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木実験</key>
+			<false/>
+		</dict>
 	</array>
 	<array>
-		<dict/>
-		<dict/>
-		<dict/>
+		<dict>
+			<key>農学概論</key>
+			<false/>
+			<key>作物生産学概論</key>
+			<false/>
+			<key>農業経営経済学概論</key>
+			<false/>
+			<key>園芸生産学概論</key>
+			<false/>
+			<key>家畜生産学概論</key>
+			<false/>
+			<key>病害虫制御学概論</key>
+			<false/>
+			<key>遺伝学</key>
+			<false/>
+			<key>畜産学</key>
+			<false/>
+			<key>作物学</key>
+			<false/>
+			<key>農業経営学</key>
+			<false/>
+			<key>動物行動学</key>
+			<false/>
+			<key>獣医生理学B</key>
+			<false/>
+			<key>家畜解剖学</key>
+			<false/>
+			<key>家畜育種学</key>
+			<false/>
+			<key>家畜繁殖学</key>
+			<false/>
+			<key>生物化学2</key>
+			<false/>
+			<key>家畜管理学</key>
+			<false/>
+			<key>生物統計学</key>
+			<false/>
+			<key>獣医微生物学1</key>
+			<false/>
+			<key>動物生殖工学</key>
+			<false/>
+			<key>栄養生理化学</key>
+			<false/>
+			<key>動物性食品学</key>
+			<false/>
+			<key>飼料生産利用学</key>
+			<false/>
+			<key>家畜疾病概論</key>
+			<false/>
+			<key>動物発生工学</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>生物生産学特別実習</key>
+			<false/>
+			<key>農場実習1</key>
+			<false/>
+			<key>農場実習3</key>
+			<false/>
+			<key>家畜育種学実験</key>
+			<false/>
+			<key>家畜繁殖学実験</key>
+			<false/>
+			<key>家畜管理学実験</key>
+			<false/>
+			<key>家畜解剖学演習</key>
+			<false/>
+			<key>畜産化学実験</key>
+			<false/>
+			<key>情報処理演習</key>
+			<false/>
+			<key>欧文演習</key>
+			<false/>
+			<key>卒業論文</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>応用微生物学</key>
+			<false/>
+			<key>分子生物学</key>
+			<false/>
+			<key>家畜衛生学</key>
+			<false/>
+			<key>肥料学概論</key>
+			<false/>
+			<key>食品化学</key>
+			<false/>
+			<key>野生・実験動物学</key>
+			<false/>
+			<key>動物遺伝資源学</key>
+			<false/>
+			<key>動物栄養・飼料化学</key>
+			<false/>
+			<key>農林気象学</key>
+			<false/>
+			<key>農業経済学</key>
+			<false/>
+			<key>土壌科学</key>
+			<false/>
+			<key>家畜臨床繁殖学</key>
+			<false/>
+			<key>食品分子機能学</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>家畜生産学実習1</key>
+			<false/>
+			<key>家畜生産学実習2</key>
+			<false/>
+			<key>家畜人工繁殖学実習</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木学実験</key>
+			<false/>
+		</dict>
 	</array>
 	<array>
-		<dict/>
-		<dict/>
-		<dict/>
+		<dict>
+			<key>農学概論</key>
+			<false/>
+			<key>作物生産学概論</key>
+			<false/>
+			<key>農業経営経済学概論</key>
+			<false/>
+			<key>園芸生産学概論</key>
+			<false/>
+			<key>家畜生産学概論</key>
+			<false/>
+			<key>病害虫制御学概論</key>
+			<false/>
+			<key>遺伝学</key>
+			<false/>
+			<key>作物学</key>
+			<false/>
+			<key>植物生理学</key>
+			<false/>
+			<key>蔬菜園芸学</key>
+			<false/>
+			<key>果樹園芸学</key>
+			<false/>
+			<key>植物病理学</key>
+			<false/>
+			<key>畜産学</key>
+			<false/>
+			<key>熱帯作物学</key>
+			<false/>
+			<key>植物育種学</key>
+			<false/>
+			<key>鑑賞園芸学</key>
+			<false/>
+			<key>害虫学</key>
+			<false/>
+			<key>農業経営学</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>生物生産学特別実習</key>
+			<false/>
+			<key>農場実習1</key>
+			<false/>
+			<key>農場実習2</key>
+			<false/>
+			<key>植物生産学実験</key>
+			<false/>
+			<key>生物化学実験</key>
+			<false/>
+			<key>土壌学実験</key>
+			<false/>
+			<key>植物生産学特別実験</key>
+			<false/>
+			<key>欧文演習</key>
+			<false/>
+			<key>卒業論文</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>作物形態形成学</key>
+			<false/>
+			<key>園芸発育生理学</key>
+			<false/>
+			<key>昆虫学</key>
+			<false/>
+			<key>作物栽培環境論</key>
+			<false/>
+			<key>植物情報管理学</key>
+			<false/>
+			<key>園芸遺伝資源学</key>
+			<false/>
+			<key>植物感染分子微生物学</key>
+			<false/>
+			<key>工芸作物学</key>
+			<false/>
+			<key>園芸品種創生論</key>
+			<false/>
+			<key>生物的防除論</key>
+			<false/>
+			<key>民族植物学</key>
+			<false/>
+			<key>肥料学概論</key>
+			<false/>
+			<key>土壌科学</key>
+			<false/>
+			<key>青果保蔵学</key>
+			<false/>
+			<key>生物化学1</key>
+			<false/>
+			<key>農林気象学</key>
+			<false/>
+			<key>分子生物学</key>
+			<false/>
+			<key>園芸環境論</key>
+			<false/>
+			<key>園芸資源化学</key>
+			<false/>
+			<key>農業経済学</key>
+			<false/>
+			<key>家畜管理学</key>
+			<false/>
+			<key>応用微生物学</key>
+			<false/>
+			<key>生物生産機械学</key>
+			<false/>
+			<key>特別講義</key>
+			<false/>
+			<key>雑草防除学</key>
+			<false/>
+			<key>農業政策学</key>
+			<false/>
+			<key>植物生産学実地研修</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木実験</key>
+			<false/>
+		</dict>
 	</array>
 	<array>
 		<dict>
@@ -411,273 +758,367 @@
 	</array>
 	<array>
 		<dict>
-			<key>工学英語</key>
+			<key>農学概論</key>
 			<false/>
-			<key>機械英語2</key>
+			<key>作物生産学概論</key>
 			<false/>
-			<key>技術者倫理</key>
+			<key>農業経営経済学概論</key>
 			<false/>
-			<key>確率と統計基礎</key>
+			<key>園芸生産学概論</key>
 			<false/>
-			<key>フレッシュマンセミナー2</key>
+			<key>家畜生産学概論</key>
 			<false/>
-			<key>機械製図</key>
+			<key>病害虫制御学概論</key>
 			<false/>
-			<key>機械工作実習</key>
+			<key>遺伝学</key>
 			<false/>
-			<key>機械工学実験</key>
+			<key>作物学</key>
 			<false/>
-			<key>機械工学セミナー</key>
+			<key>植物生理学</key>
 			<false/>
-			<key>応用機械設計</key>
+			<key>蔬菜園芸学</key>
 			<false/>
-			<key>数値計算とプログラム</key>
+			<key>果樹園芸学</key>
 			<false/>
-			<key>創造機械設計</key>
+			<key>植物病理学</key>
+			<false/>
+			<key>畜産学</key>
+			<false/>
+			<key>熱帯作物学</key>
+			<false/>
+			<key>植物育種学</key>
+			<false/>
+			<key>鑑賞園芸学</key>
+			<false/>
+			<key>害虫学</key>
+			<false/>
+			<key>農業経営学</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>生物生産学特別実習</key>
+			<false/>
+			<key>農場実習1</key>
+			<false/>
+			<key>農場実習2</key>
+			<false/>
+			<key>植物生産学実験</key>
+			<false/>
+			<key>生物化学実験</key>
+			<false/>
+			<key>土壌学実験</key>
+			<false/>
+			<key>植物生産学特別実験</key>
+			<false/>
+			<key>欧文演習</key>
 			<false/>
 			<key>卒業論文</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>フレッシュマンセミナー1</key>
+			<key>作物形態形成学</key>
 			<false/>
-			<key>工業力学1及び演習</key>
+			<key>園芸発育生理学</key>
 			<false/>
-			<key>工業力学2及び演習</key>
+			<key>昆虫学</key>
 			<false/>
-			<key>材料力学基礎及び演習</key>
+			<key>作物栽培環境論</key>
 			<false/>
-			<key>工業熱力学基礎及び演習</key>
+			<key>植物情報管理学</key>
 			<false/>
-			<key>応用数学1及び演習</key>
+			<key>園芸遺伝資源学</key>
 			<false/>
-			<key>電気電子工学基礎</key>
+			<key>植物感染分子微生物学</key>
 			<false/>
-			<key>応用数学2及び演習</key>
+			<key>工芸作物学</key>
 			<false/>
-			<key>機械力学基礎及び演習</key>
+			<key>園芸品種創生論</key>
 			<false/>
-			<key>流体力学基礎及び演習</key>
+			<key>生物的防除論</key>
 			<false/>
-			<key>機械材料学基礎</key>
+			<key>民族植物学</key>
 			<false/>
-			<key>材料力学</key>
+			<key>肥料学概論</key>
 			<false/>
-			<key>機構学</key>
+			<key>土壌科学</key>
 			<false/>
-			<key>計測工学</key>
-			<false/>
-			<key>工業熱力学</key>
-			<false/>
-			<key>機械制御工学基礎及び演習</key>
-			<false/>
-			<key>3次元CAD基礎</key>
-			<false/>
-			<key>機械設計工学</key>
-			<false/>
-			<key>機械材料学</key>
-			<false/>
-			<key>機械力学</key>
-			<false/>
-			<key>生産工学1</key>
-			<false/>
-			<key>弾性力学</key>
-			<false/>
-			<key>熱機関</key>
-			<false/>
-			<key>流体力学</key>
-			<false/>
-			<key>生産工学2</key>
-			<false/>
-			<key>機械制御工学</key>
-			<false/>
-			<key>ロボット工学</key>
-			<false/>
-			<key>メカトロニクス</key>
-			<false/>
-			<key>流体機械</key>
-			<false/>
-			<key>材料工学セミナー</key>
-			<false/>
-			<key>生産工学セミナー</key>
-			<false/>
-			<key>熱工学セミナー</key>
-			<false/>
-			<key>流体工学セミナー</key>
-			<false/>
-			<key>機械システム設計解析セミナー</key>
-			<false/>
-			<key>機械システム計測制御セミナー</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>情報工学通論</key>
-			<false/>
-			<key>情報システム</key>
-			<false/>
-			<key>化学基礎</key>
-			<false/>
-			<key>地球科学基礎</key>
-			<false/>
-			<key>原子力・放射線と環境</key>
-			<false/>
-			<key>工場見学</key>
-			<false/>
-			<key>インターンシップ</key>
-			<false/>
-			<key>生産工学論</key>
-			<false/>
-			<key>エレクトロニクス論</key>
-			<false/>
-			<key>エネルギー工学論</key>
-			<false/>
-			<key>環境工学論</key>
-			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>科学技術論</key>
-			<false/>
-		</dict>
-	</array>
-	<array>
-		<dict>
-			<key>情報システム</key>
-			<false/>
-			<key>地球科学基礎</key>
-			<false/>
-			<key>原子力・放射線と環境</key>
-			<false/>
-			<key>生産工学論</key>
-			<false/>
-			<key>エレクトロニクス論</key>
-			<false/>
-			<key>科学技術論</key>
-			<false/>
-			<key>環境工学論</key>
-			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>エネルギー工学論</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>生物学概論</key>
-			<false/>
-			<key>量子化学</key>
+			<key>青果保蔵学</key>
 			<false/>
 			<key>生物化学1</key>
 			<false/>
-			<key>高分子化学</key>
-			<false/>
-			<key>生体分子化学</key>
-			<false/>
-			<key>無機化学</key>
-			<false/>
-			<key>有機化学2</key>
-			<false/>
-			<key>生物化学2</key>
-			<false/>
-			<key>化学計測1</key>
-			<false/>
-			<key>生命化学プログラミング</key>
-			<false/>
-			<key>有機化学3</key>
-			<false/>
-			<key>分析化学</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>化学生命工学キャリアデザイン</key>
-			<false/>
-			<key>有機工業化学</key>
-			<false/>
-			<key>界面科学</key>
-			<false/>
-			<key>量子物理化学</key>
-			<false/>
-			<key>生体分子計測学</key>
+			<key>農林気象学</key>
 			<false/>
 			<key>分子生物学</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>園芸環境論</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>園芸資源化学</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>農業経済学</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>家畜管理学</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>応用微生物学</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>生物生産機械学</key>
 			<false/>
-			<key>微生物学</key>
+			<key>特別講義</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>雑草防除学</key>
 			<false/>
-			<key>学外実習</key>
+			<key>農業政策学</key>
+			<false/>
+			<key>植物生産学実地研修</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木実験</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>物理化学基礎</key>
+			<key>農学概論</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>作物生産学概論</key>
 			<false/>
-			<key>無機化学基礎</key>
+			<key>農業経営経済学概論</key>
 			<false/>
-			<key>量子化学</key>
+			<key>園芸生産学概論</key>
 			<false/>
-			<key>有機化学</key>
+			<key>家畜生産学概論</key>
 			<false/>
-			<key>無機化学</key>
+			<key>病害虫制御学概論</key>
 			<false/>
-			<key>分析化学</key>
+			<key>遺伝学</key>
 			<false/>
-			<key>機器分析基礎</key>
+			<key>作物学</key>
 			<false/>
-		</dict>
-		<dict>
-			<key>反応速度論</key>
+			<key>植物生理学</key>
 			<false/>
-			<key>化学工学実習</key>
+			<key>蔬菜園芸学</key>
 			<false/>
-			<key>化学工学実験</key>
+			<key>果樹園芸学</key>
 			<false/>
-			<key>化学プロセス工学</key>
+			<key>植物病理学</key>
 			<false/>
-			<key>分離工学</key>
+			<key>畜産学</key>
 			<false/>
-			<key>反応工学</key>
+			<key>熱帯作物学</key>
 			<false/>
-			<key>無機材料化学1</key>
+			<key>植物育種学</key>
 			<false/>
-			<key>技術英語1</key>
+			<key>鑑賞園芸学</key>
 			<false/>
-			<key>技術英語2</key>
+			<key>害虫学</key>
 			<false/>
-			<key>粉体工学</key>
+			<key>農業経営学</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>学外実習</key>
+			<key>生物生産学特別実習</key>
 			<false/>
-			<key>化学工学セミナー</key>
+			<key>農場実習1</key>
 			<false/>
-			<key>環化工演習</key>
+			<key>農場実習2</key>
 			<false/>
-			<key>化学工学総論</key>
+			<key>植物生産学実験</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>生物化学実験</key>
 			<false/>
-			<key>無機材料化学2</key>
+			<key>土壌学実験</key>
 			<false/>
-			<key>化学工学特別研究1</key>
+			<key>植物生産学特別実験</key>
 			<false/>
-			<key>化学工学特別研究2</key>
+			<key>欧文演習</key>
 			<false/>
 			<key>卒業論文</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>作物形態形成学</key>
+			<false/>
+			<key>園芸発育生理学</key>
+			<false/>
+			<key>昆虫学</key>
+			<false/>
+			<key>作物栽培環境論</key>
+			<false/>
+			<key>植物情報管理学</key>
+			<false/>
+			<key>園芸遺伝資源学</key>
+			<false/>
+			<key>植物感染分子微生物学</key>
+			<false/>
+			<key>工芸作物学</key>
+			<false/>
+			<key>園芸品種創生論</key>
+			<false/>
+			<key>生物的防除論</key>
+			<false/>
+			<key>民族植物学</key>
+			<false/>
+			<key>肥料学概論</key>
+			<false/>
+			<key>土壌科学</key>
+			<false/>
+			<key>青果保蔵学</key>
+			<false/>
+			<key>生物化学1</key>
+			<false/>
+			<key>農林気象学</key>
+			<false/>
+			<key>分子生物学</key>
+			<false/>
+			<key>園芸環境論</key>
+			<false/>
+			<key>園芸資源化学</key>
+			<false/>
+			<key>農業経済学</key>
+			<false/>
+			<key>家畜管理学</key>
+			<false/>
+			<key>応用微生物学</key>
+			<false/>
+			<key>生物生産機械学</key>
+			<false/>
+			<key>特別講義</key>
+			<false/>
+			<key>雑草防除学</key>
+			<false/>
+			<key>農業政策学</key>
+			<false/>
+			<key>植物生産学実地研修</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木実験</key>
+			<false/>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>農学概論</key>
+			<false/>
+			<key>作物生産学概論</key>
+			<false/>
+			<key>農業経営経済学概論</key>
+			<false/>
+			<key>園芸生産学概論</key>
+			<false/>
+			<key>家畜生産学概論</key>
+			<false/>
+			<key>病害虫制御学概論</key>
+			<false/>
+			<key>遺伝学</key>
+			<false/>
+			<key>作物学</key>
+			<false/>
+			<key>植物生理学</key>
+			<false/>
+			<key>蔬菜園芸学</key>
+			<false/>
+			<key>果樹園芸学</key>
+			<false/>
+			<key>植物病理学</key>
+			<false/>
+			<key>畜産学</key>
+			<false/>
+			<key>熱帯作物学</key>
+			<false/>
+			<key>植物育種学</key>
+			<false/>
+			<key>鑑賞園芸学</key>
+			<false/>
+			<key>害虫学</key>
+			<false/>
+			<key>農業経営学</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>生物生産学特別実習</key>
+			<false/>
+			<key>農場実習1</key>
+			<false/>
+			<key>農場実習2</key>
+			<false/>
+			<key>植物生産学実験</key>
+			<false/>
+			<key>生物化学実験</key>
+			<false/>
+			<key>土壌学実験</key>
+			<false/>
+			<key>植物生産学特別実験</key>
+			<false/>
+			<key>欧文演習</key>
+			<false/>
+			<key>卒業論文</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>作物形態形成学</key>
+			<false/>
+			<key>園芸発育生理学</key>
+			<false/>
+			<key>昆虫学</key>
+			<false/>
+			<key>作物栽培環境論</key>
+			<false/>
+			<key>植物情報管理学</key>
+			<false/>
+			<key>園芸遺伝資源学</key>
+			<false/>
+			<key>植物感染分子微生物学</key>
+			<false/>
+			<key>工芸作物学</key>
+			<false/>
+			<key>園芸品種創生論</key>
+			<false/>
+			<key>生物的防除論</key>
+			<false/>
+			<key>民族植物学</key>
+			<false/>
+			<key>肥料学概論</key>
+			<false/>
+			<key>土壌科学</key>
+			<false/>
+			<key>青果保蔵学</key>
+			<false/>
+			<key>生物化学1</key>
+			<false/>
+			<key>農林気象学</key>
+			<false/>
+			<key>分子生物学</key>
+			<false/>
+			<key>園芸環境論</key>
+			<false/>
+			<key>園芸資源化学</key>
+			<false/>
+			<key>農業経済学</key>
+			<false/>
+			<key>家畜管理学</key>
+			<false/>
+			<key>応用微生物学</key>
+			<false/>
+			<key>生物生産機械学</key>
+			<false/>
+			<key>特別講義</key>
+			<false/>
+			<key>雑草防除学</key>
+			<false/>
+			<key>農業政策学</key>
+			<false/>
+			<key>植物生産学実地研修</key>
+			<false/>
+			<key>アグリビジネス研修</key>
+			<false/>
+			<key>環境物理学実験</key>
+			<false/>
+			<key>農業土木実験</key>
 			<false/>
 		</dict>
 	</array>

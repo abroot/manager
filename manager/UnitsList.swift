@@ -75,7 +75,6 @@ class UnitsList: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBAction func preserve(_ sender: UIButton) {
         let ud = UserDefaults.standard
         
-        
         ud.set(unitsArr, forKey: fileName)
     }
     
@@ -115,7 +114,6 @@ class UnitsList: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>初年次セミナー1</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+			<key>初年次セミナー2</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+			<key>大学と地域</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+			<key>体育理論</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+			<key>体育実習</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+			<key>情報活用</key>
+			<dict>
+				<key>state</key>
+				<false/>
+				<key>count</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+</array>
+</plist>

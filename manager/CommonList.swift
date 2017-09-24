@@ -25,11 +25,11 @@ class CommonList: UIViewController, UITableViewDataSource, UITableViewDelegate {
         //キーを配列にしてテーブルに表示
         var keys = [String](unitsArr[fieldPath.section][fieldPath.row].keys)
         keys.sort()
-        let cellText = keys[indexPath.row]
+        let cellText:String = keys[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = cellText
         
-        if self.unitsArr[fieldPath.section][fieldPath.row][cellText]! {
+        if self.unitsArr[fieldPath.section][fieldPath.row][cellText]!{
             cell.imageView?.image = UIImage(named: "check.png")
         } else {
             cell.imageView?.image = UIImage(named: "gray.png")
@@ -63,7 +63,6 @@ class CommonList: UIViewController, UITableViewDataSource, UITableViewDelegate {
             }
             countLabel.text = "\(count)"
             
-            
             cell.isSelected = false  // 選択状態を解除
         }
         
@@ -91,7 +90,6 @@ class CommonList: UIViewController, UITableViewDataSource, UITableViewDelegate {
             if data == true{count += 2}
         }
         countLabel.text = "\(count)"
-
     }
     
     override func didReceiveMemoryWarning() {
