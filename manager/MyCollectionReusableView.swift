@@ -14,5 +14,5 @@ class MyCollectionReusableView : UICollectionReusableView {
     @IBOutlet weak var numLabel: UILabel!
     @IBOutlet weak var denomLabel: UILabel!
     @IBOutlet weak var FAlabel: UILabel!
-    
+    @IBOutlet weak var lineImage: UIImageView!
 }

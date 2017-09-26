@@ -4,805 +4,931 @@
 <array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー1</key>
+			<key>演習</key>
 			<false/>
-			<key>工業力学1及び演習</key>
-			<false/>
-			<key>工業力学2及び演習</key>
-			<false/>
-			<key>材料力学基礎及び演習</key>
-			<false/>
-			<key>工業熱力学基礎及び演習</key>
-			<false/>
-			<key>応用数学1及び演習</key>
-			<false/>
-			<key>電気電子工学基礎</key>
-			<false/>
-			<key>応用数学2及び演習</key>
-			<false/>
-			<key>機械力学基礎及び演習</key>
-			<false/>
-			<key>流体力学基礎及び演習</key>
-			<false/>
-			<key>機械材料学基礎</key>
-			<false/>
-			<key>材料力学</key>
-			<false/>
-			<key>機構学</key>
-			<false/>
-			<key>計測工学</key>
-			<false/>
-			<key>工業熱力学</key>
-			<false/>
-			<key>機械制御工学基礎及び演習</key>
-			<false/>
-			<key>3次元CAD基礎</key>
-			<false/>
-			<key>機械設計工学</key>
-			<false/>
-			<key>機械材料学</key>
-			<false/>
-			<key>機械力学</key>
-			<false/>
-			<key>生産工学1</key>
-			<false/>
-			<key>弾性力学</key>
-			<false/>
-			<key>熱機関</key>
-			<false/>
-			<key>流体力学</key>
-			<false/>
-			<key>生産工学2</key>
-			<false/>
-			<key>機械制御工学</key>
-			<false/>
-			<key>ロボット工学</key>
-			<false/>
-			<key>メカトロニクス</key>
-			<false/>
-			<key>流体機械</key>
-			<false/>
-			<key>材料工学セミナー</key>
-			<false/>
-			<key>生産工学セミナー</key>
-			<false/>
-			<key>熱工学セミナー</key>
-			<false/>
-			<key>流体工学セミナー</key>
-			<false/>
-			<key>機械システム設計解析セミナー</key>
-			<false/>
-			<key>機械システム計測制御セミナー</key>
+			<key>課題研究</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報工学通論</key>
+			<key>基礎演習</key>
 			<false/>
-			<key>情報システム</key>
+			<key>外国書購読</key>
 			<false/>
-			<key>化学基礎</key>
+			<key>外国語表現法</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>法政策総合講義</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>法政策論</key>
 			<false/>
-			<key>工場見学</key>
+			<key>環境政策論</key>
 			<false/>
-			<key>インターンシップ</key>
+			<key>自治体政策論</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>地方行財政論</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>行政学</key>
 			<false/>
-			<key>エネルギー工学論</key>
+			<key>行政の法システム</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>行政救済法</key>
 			<false/>
-			<key>材料科学論</key>
+			<key>行政組織法</key>
+			<false/>
+			<key>自治体行政法</key>
+			<false/>
+			<key>政治学</key>
+			<false/>
+			<key>家族の法と政策</key>
+			<false/>
+			<key>社会保障法</key>
+			<false/>
+			<key>医療福祉論</key>
+			<false/>
+			<key>消費者福祉論</key>
+			<false/>
+			<key>雇用の法と政策</key>
+			<false/>
+			<key>刑事政策</key>
+			<false/>
+			<key>産業政策論</key>
 			<false/>
 			<key>科学技術論</key>
+			<false/>
+			<key>法理論</key>
+			<false/>
+			<key>法制度史</key>
+			<false/>
+			<key>法思想史</key>
+			<false/>
+			<key>法社会学</key>
+			<false/>
+			<key>裁判学</key>
+			<false/>
+			<key>社会文化論</key>
+			<false/>
+			<key>法情報論</key>
+			<false/>
+			<key>ディベート論</key>
+			<false/>
+			<key>統治機構論</key>
+			<false/>
+			<key>人権論</key>
+			<false/>
+			<key>比較憲政史</key>
+			<false/>
+			<key>刑法総論</key>
+			<false/>
+			<key>犯罪と刑罰</key>
+			<false/>
+			<key>刑法特論</key>
+			<false/>
+			<key>刑事訴訟法</key>
+			<false/>
+			<key>民法総論</key>
+			<false/>
+			<key>物権法</key>
+			<false/>
+			<key>債権法</key>
+			<false/>
+			<key>現代契約法</key>
+			<false/>
+			<key>現代不法行為法</key>
+			<false/>
+			<key>企業法務論</key>
+			<false/>
+			<key>企業の法システム</key>
+			<false/>
+			<key>企業組織法</key>
+			<false/>
+			<key>有価証券法</key>
+			<false/>
+			<key>企業取引法</key>
+			<false/>
+			<key>経済法</key>
+			<false/>
+			<key>知的財産法</key>
+			<false/>
+			<key>民事紛争処理手続</key>
+			<false/>
+			<key>民事執行・保全法</key>
+			<false/>
+			<key>企業再生の法システム</key>
+			<false/>
+			<key>税の法システム</key>
+			<false/>
+			<key>登記の法システム</key>
+			<false/>
+			<key>国際法</key>
+			<false/>
+			<key>国際人権法</key>
+			<false/>
+			<key>国際私法</key>
+			<false/>
+			<key>国際取引法</key>
+			<false/>
+			<key>国際関係論</key>
+			<false/>
+			<key>民族・地域紛争論</key>
+			<false/>
+			<key>現代政治外交論</key>
+			<false/>
+			<key>国際行動論</key>
+			<false/>
+			<key>法律学特殊講義</key>
+			<false/>
+			<key>政策学特殊講義</key>
+			<false/>
+			<key>政治学特殊講義</key>
+			<false/>
+			<key>法律学概論</key>
+			<false/>
+			<key>政治学概論</key>
+			<false/>
+			<key>経済原論</key>
+			<false/>
+			<key>会計学総論</key>
+			<false/>
+			<key>経営学総論</key>
+			<false/>
+			<key>経済政策論</key>
+			<false/>
+			<key>財政学総論</key>
+			<false/>
+			<key>産業・組織心理学</key>
+			<false/>
+			<key>社会心理学</key>
+			<false/>
+			<key>現代文化論</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー1</key>
+			<key>基礎演習</key>
 			<false/>
-			<key>工業力学1及び演習</key>
+			<key>演習</key>
 			<false/>
-			<key>工業力学2及び演習</key>
+			<key>外国書研究</key>
 			<false/>
-			<key>材料力学基礎及び演習</key>
+			<key>特殊研究</key>
 			<false/>
-			<key>工業熱力学基礎及び演習</key>
+			<key>エンドユーザ実習1</key>
 			<false/>
-			<key>応用数学1及び演習</key>
+			<key>エンドユーザ実習2</key>
 			<false/>
-			<key>電気電子工学基礎</key>
-			<false/>
-			<key>応用数学2及び演習</key>
-			<false/>
-			<key>機械力学基礎及び演習</key>
-			<false/>
-			<key>流体力学基礎及び演習</key>
-			<false/>
-			<key>機械材料学基礎</key>
-			<false/>
-			<key>材料力学</key>
-			<false/>
-			<key>機構学</key>
-			<false/>
-			<key>計測工学</key>
-			<false/>
-			<key>工業熱力学</key>
-			<false/>
-			<key>機械制御工学基礎及び演習</key>
-			<false/>
-			<key>3次元CAD基礎</key>
-			<false/>
-			<key>機械設計工学</key>
-			<false/>
-			<key>機械材料学</key>
-			<false/>
-			<key>機械力学</key>
-			<false/>
-			<key>生産工学1</key>
-			<false/>
-			<key>弾性力学</key>
-			<false/>
-			<key>熱機関</key>
-			<false/>
-			<key>流体力学</key>
-			<false/>
-			<key>生産工学2</key>
-			<false/>
-			<key>機械制御工学</key>
-			<false/>
-			<key>ロボット工学</key>
-			<false/>
-			<key>メカトロニクス</key>
-			<false/>
-			<key>流体機械</key>
-			<false/>
-			<key>材料工学セミナー</key>
-			<false/>
-			<key>生産工学セミナー</key>
-			<false/>
-			<key>熱工学セミナー</key>
-			<false/>
-			<key>流体工学セミナー</key>
-			<false/>
-			<key>機械システム設計解析セミナー</key>
-			<false/>
-			<key>機械システム計測制御セミナー</key>
+			<key>エンドユーザ実習3</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報工学通論</key>
+			<key>経済学史</key>
 			<false/>
-			<key>情報システム</key>
+			<key>経済学概論</key>
 			<false/>
-			<key>化学基礎</key>
+			<key>経済原論</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>景気変動論</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>市民社会思想史1</key>
 			<false/>
-			<key>工場見学</key>
+			<key>市民社会思想史2</key>
 			<false/>
-			<key>インターンシップ</key>
+			<key>比較社会保障論</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>マクロ経済学</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>ミクロ経済学</key>
 			<false/>
-			<key>エネルギー工学論</key>
+			<key>経済学と数学A</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>経済学と数学B</key>
 			<false/>
-			<key>材料科学論</key>
+			<key>国民経済計算</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>地域計量分析</key>
 			<false/>
-		</dict>
-	</array>
-	<array>
-		<dict>
-			<key>フレッシュマンセミナー</key>
+			<key>統計学総論</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>数理統計学</key>
 			<false/>
-			<key>無機化学基礎</key>
+			<key>日本経済史</key>
 			<false/>
-			<key>物理化学基礎</key>
+			<key>現代日本経済史</key>
 			<false/>
-			<key>応用数学1</key>
+			<key>日本経済論</key>
 			<false/>
-			<key>物理化学1</key>
+			<key>世界経済史</key>
 			<false/>
-			<key>化学工学基礎</key>
+			<key>アジア・ラテンアメリカ経済史</key>
 			<false/>
-			<key>有機化学1</key>
+			<key>金融論</key>
 			<false/>
-			<key>物理化学2</key>
+			<key>銀行論</key>
 			<false/>
-			<key>化学生命工学実験</key>
+			<key>経営管理論</key>
 			<false/>
-			<key>工学英語1</key>
+			<key>経営財務論</key>
 			<false/>
-			<key>化学情報分析実習</key>
+			<key>意思決定論</key>
 			<false/>
-			<key>化学生命工学セミナー1</key>
+			<key>国際経営論</key>
 			<false/>
-			<key>工学英語2</key>
+			<key>企業論</key>
 			<false/>
-			<key>化学生命工学セミナー2</key>
+			<key>会計学総論</key>
 			<false/>
-			<key>化学生命工学特別研究1</key>
+			<key>簿記システム論</key>
 			<false/>
-			<key>工学倫理</key>
+			<key>経営情報論</key>
 			<false/>
-			<key>化学生命工学特別研究2</key>
+			<key>データベース論</key>
 			<false/>
-			<key>卒業論文</key>
+			<key>システム設計</key>
 			<false/>
-		</dict>
-		<dict>
-			<key>情報システム</key>
+			<key>システム監査論</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>システム監査実習</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>システム構築実習</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>オペレーティングシステム論</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>情報ネットワーク論</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>情報マネジメント</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>ベンチャー企業論</key>
 			<false/>
-			<key>材料科学論</key>
+			<key>経営学総論</key>
 			<false/>
-			<key>エネルギー工学論</key>
+			<key>経営戦略論</key>
 			<false/>
-		</dict>
-		<dict>
-			<key>生物学概論</key>
+			<key>管理会計論</key>
 			<false/>
-			<key>量子化学</key>
+			<key>原価計算論</key>
 			<false/>
-			<key>生物化学1</key>
+			<key>会計情報論</key>
 			<false/>
-			<key>高分子化学</key>
+			<key>情報社会論</key>
 			<false/>
-			<key>生体分子化学</key>
+			<key>集団と組織の社会学</key>
 			<false/>
-			<key>無機化学</key>
+			<key>都市社会学</key>
 			<false/>
-			<key>有機化学2</key>
+			<key>社会調査とまちづくり</key>
 			<false/>
-			<key>生物化学2</key>
+			<key>現代社会の意識</key>
 			<false/>
-			<key>化学計測1</key>
+			<key>社会意識論</key>
 			<false/>
-			<key>生命化学プログラミング</key>
+			<key>経済政策論</key>
 			<false/>
-			<key>有機化学3</key>
+			<key>総合政策論</key>
 			<false/>
-			<key>分析化学</key>
+			<key>地域政治論</key>
 			<false/>
-		</dict>
-		<dict>
-			<key>化学生命工学キャリアデザイン</key>
+			<key>現代政治史</key>
 			<false/>
-			<key>有機工業化学</key>
+			<key>地域計画論</key>
 			<false/>
-			<key>界面科学</key>
+			<key>農業政策論</key>
 			<false/>
-			<key>量子物理化学</key>
+			<key>農業の国際化と農産物貿易</key>
 			<false/>
-			<key>生体分子計測学</key>
+			<key>社会学概論</key>
 			<false/>
-			<key>分子生物学</key>
+			<key>歴史のなかの社会学</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>消費社会としての現代</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>現代社会論</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>財政学総論</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>国際経済システム論</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>伝統社会のシステム論</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>比較共同組合論</key>
 			<false/>
-			<key>微生物学</key>
+			<key>労使関係論</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>労働経済論</key>
 			<false/>
-			<key>学外実習</key>
+			<key>比較社会運動史</key>
+			<false/>
+			<key>資源経済学</key>
+			<false/>
+			<key>国際関係論</key>
+			<false/>
+			<key>民族・地域紛争論</key>
+			<false/>
+			<key>現代政治外交論</key>
+			<false/>
+			<key>国際行動論</key>
+			<false/>
+			<key>東南アジア経済論</key>
+			<false/>
+			<key>アジア農村経済論</key>
+			<false/>
+			<key>国際貿易投資論</key>
+			<false/>
+			<key>国際金融論</key>
+			<false/>
+			<key>東アジア・中国経済論</key>
+			<false/>
+			<key>環境経済論</key>
+			<false/>
+			<key>経済地理学</key>
+			<false/>
+			<key>貨幣論</key>
+			<false/>
+			<key>商学総論</key>
+			<false/>
+			<key>職業指導</key>
+			<false/>
+			<key>比較社会システム論</key>
+			<false/>
+			<key>情報コミュニケーション1</key>
+			<false/>
+			<key>情報コミュニケーション2</key>
+			<false/>
+			<key>英語圏の社会事情1</key>
+			<false/>
+			<key>英語圏の社会事情2</key>
+			<false/>
+			<key>ドイツ語圏の社会事情1</key>
+			<false/>
+			<key>ドイツ語圏の社会事情2</key>
+			<false/>
+			<key>国際カルチャー1</key>
+			<false/>
+			<key>国際カルチャー2</key>
+			<false/>
+			<key>実用英語1</key>
+			<false/>
+			<key>実用英語2</key>
+			<false/>
+			<key>実用英語3</key>
+			<false/>
+			<key>実践英語1</key>
+			<false/>
+			<key>実践英語2</key>
+			<false/>
+			<key>特殊講義</key>
+			<false/>
+			<key>フィールド実習</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー</key>
+			<key>人文科学入門</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>人文科学基礎1</key>
 			<false/>
-			<key>無機化学基礎</key>
-			<false/>
-			<key>物理化学基礎</key>
-			<false/>
-			<key>応用数学1</key>
-			<false/>
-			<key>物理化学1</key>
-			<false/>
-			<key>化学工学基礎</key>
-			<false/>
-			<key>有機化学1</key>
-			<false/>
-			<key>物理化学2</key>
-			<false/>
-			<key>化学生命工学実験</key>
-			<false/>
-			<key>工学英語1</key>
-			<false/>
-			<key>化学情報分析実習</key>
-			<false/>
-			<key>化学生命工学セミナー1</key>
-			<false/>
-			<key>工学英語2</key>
-			<false/>
-			<key>化学生命工学セミナー2</key>
-			<false/>
-			<key>化学生命工学特別研究1</key>
-			<false/>
-			<key>工学倫理</key>
-			<false/>
-			<key>化学生命工学特別研究2</key>
-			<false/>
-			<key>卒業論文</key>
+			<key>人文科学基礎2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報システム</key>
+			<key>人文科学の実践</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>心理学のしごと</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>メディア論入門</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>地域と環境</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>ことばを磨く</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>異文化理解</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>海外短期留学</key>
 			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>エネルギー工学論</key>
+			<key>法文総合科目</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>生物学概論</key>
+			<key>卒業科目</key>
 			<false/>
-			<key>量子化学</key>
+			<key>コース基礎演習1</key>
 			<false/>
-			<key>生物化学1</key>
-			<false/>
-			<key>高分子化学</key>
-			<false/>
-			<key>生体分子化学</key>
-			<false/>
-			<key>無機化学</key>
-			<false/>
-			<key>有機化学2</key>
-			<false/>
-			<key>生物化学2</key>
-			<false/>
-			<key>化学計測1</key>
-			<false/>
-			<key>生命化学プログラミング</key>
-			<false/>
-			<key>有機化学3</key>
-			<false/>
-			<key>分析化学</key>
+			<key>コース基礎演習2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>化学生命工学キャリアデザイン</key>
+			<key>心理学概論</key>
 			<false/>
-			<key>有機工業化学</key>
+			<key>心理学研究法</key>
 			<false/>
-			<key>界面科学</key>
+			<key>認知心理学</key>
 			<false/>
-			<key>量子物理化学</key>
+			<key>学習心理学</key>
 			<false/>
-			<key>生体分子計測学</key>
+			<key>比較行動心理学</key>
 			<false/>
-			<key>分子生物学</key>
+			<key>発達心理学</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>産業・組織心理学</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>社会心理学</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>臨床援助論</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>臨床心理学</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>コミュニティ援助論</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>人格心理学</key>
 			<false/>
-			<key>微生物学</key>
+			<key>児童文化論</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>人間関係論</key>
 			<false/>
-			<key>学外実習</key>
+			<key>心理学特講</key>
+			<false/>
+			<key>生命の倫理</key>
+			<false/>
+			<key>環境の倫理</key>
+			<false/>
+			<key>宗教文化論</key>
+			<false/>
+			<key>現代メディア文化論</key>
+			<false/>
+			<key>社会言語学</key>
+			<false/>
+			<key>哲学概論</key>
+			<false/>
+			<key>倫理学概説</key>
+			<false/>
+			<key>文化人類学</key>
+			<false/>
+			<key>現代文化論</key>
+			<false/>
+			<key>心理療法演習</key>
+			<false/>
+			<key>認知心理学演習</key>
+			<false/>
+			<key>比較行動心理学演習</key>
+			<false/>
+			<key>社会心理学演習</key>
+			<false/>
+			<key>臨床援助論演習</key>
+			<false/>
+			<key>臨床心理学演習</key>
+			<false/>
+			<key>心理学統計演習</key>
+			<false/>
+			<key>心理学実験1</key>
+			<false/>
+			<key>心理学実験2</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー</key>
+			<key>人文科学入門</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>人文科学基礎1</key>
 			<false/>
-			<key>無機化学基礎</key>
-			<false/>
-			<key>物理化学基礎</key>
-			<false/>
-			<key>応用数学1</key>
-			<false/>
-			<key>物理化学1</key>
-			<false/>
-			<key>化学工学基礎</key>
-			<false/>
-			<key>有機化学1</key>
-			<false/>
-			<key>物理化学2</key>
-			<false/>
-			<key>化学生命工学実験</key>
-			<false/>
-			<key>工学英語1</key>
-			<false/>
-			<key>化学情報分析実習</key>
-			<false/>
-			<key>化学生命工学セミナー1</key>
-			<false/>
-			<key>工学英語2</key>
-			<false/>
-			<key>化学生命工学セミナー2</key>
-			<false/>
-			<key>化学生命工学特別研究1</key>
-			<false/>
-			<key>工学倫理</key>
-			<false/>
-			<key>化学生命工学特別研究2</key>
-			<false/>
-			<key>卒業論文</key>
+			<key>人文科学基礎2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報システム</key>
+			<key>人文科学の実践</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>心理学のしごと</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>メディア論入門</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>地域と環境</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>ことばを磨く</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>異文化理解</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>海外短期留学</key>
 			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>エネルギー工学論</key>
+			<key>法文総合科目</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>生物学概論</key>
+			<key>卒業科目</key>
 			<false/>
-			<key>量子化学</key>
+			<key>コース基礎演習1</key>
 			<false/>
-			<key>生物化学1</key>
-			<false/>
-			<key>高分子化学</key>
-			<false/>
-			<key>生体分子化学</key>
-			<false/>
-			<key>無機化学</key>
-			<false/>
-			<key>有機化学2</key>
-			<false/>
-			<key>生物化学2</key>
-			<false/>
-			<key>化学計測1</key>
-			<false/>
-			<key>生命化学プログラミング</key>
-			<false/>
-			<key>有機化学3</key>
-			<false/>
-			<key>分析化学</key>
+			<key>コース基礎演習2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>化学生命工学キャリアデザイン</key>
+			<key>哲学概論</key>
 			<false/>
-			<key>有機工業化学</key>
+			<key>現代文化論</key>
 			<false/>
-			<key>界面科学</key>
+			<key>現代メディア文化論</key>
 			<false/>
-			<key>量子物理化学</key>
+			<key>キャリアと現代文化</key>
 			<false/>
-			<key>生体分子計測学</key>
+			<key>映像文化論</key>
 			<false/>
-			<key>分子生物学</key>
+			<key>言語と文化</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>社会言語論</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>表象文化論</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>デジタル文化論</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>ポピュラーカルチャー論</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>アメリカ文学</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>産業・組織心理学</key>
 			<false/>
-			<key>微生物学</key>
+			<key>社会心理学</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>認知心理学</key>
 			<false/>
-			<key>学外実習</key>
+			<key>学習心理学</key>
+			<false/>
+			<key>児童文化論</key>
+			<false/>
+			<key>人間関係論</key>
+			<false/>
+			<key>地域研究論</key>
+			<false/>
+			<key>芸術の思想</key>
+			<false/>
+			<key>現代文化論演習</key>
+			<false/>
+			<key>現代メディア文化論演習</key>
+			<false/>
+			<key>言語と文化演習</key>
+			<false/>
+			<key>社会言語学演習</key>
+			<false/>
+			<key>表象文化論演習</key>
+			<false/>
+			<key>デジタル文化論演習</key>
+			<false/>
+			<key>メディアと文化演習</key>
+			<false/>
+			<key>文化リサーチ演習</key>
+			<false/>
+			<key>マスコミ論演習</key>
+			<false/>
+			<key>映像制作演習</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー</key>
+			<key>人文科学入門</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>人文科学基礎1</key>
 			<false/>
-			<key>無機化学基礎</key>
-			<false/>
-			<key>物理化学基礎</key>
-			<false/>
-			<key>応用数学1</key>
-			<false/>
-			<key>物理化学1</key>
-			<false/>
-			<key>化学工学基礎</key>
-			<false/>
-			<key>有機化学1</key>
-			<false/>
-			<key>物理化学2</key>
-			<false/>
-			<key>化学生命工学実験</key>
-			<false/>
-			<key>工学英語1</key>
-			<false/>
-			<key>化学情報分析実習</key>
-			<false/>
-			<key>化学生命工学セミナー1</key>
-			<false/>
-			<key>工学英語2</key>
-			<false/>
-			<key>化学生命工学セミナー2</key>
-			<false/>
-			<key>化学生命工学特別研究1</key>
-			<false/>
-			<key>工学倫理</key>
-			<false/>
-			<key>化学生命工学特別研究2</key>
-			<false/>
-			<key>卒業論文</key>
+			<key>人文科学基礎2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報システム</key>
+			<key>人文科学の実践</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>心理学のしごと</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>メディア論入門</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>地域と環境</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>ことばを磨く</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>異文化理解</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>海外短期留学</key>
 			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>エネルギー工学論</key>
+			<key>法文総合科目</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>生物学概論</key>
+			<key>卒業科目</key>
 			<false/>
-			<key>量子化学</key>
+			<key>コース基礎演習1</key>
 			<false/>
-			<key>生物化学1</key>
-			<false/>
-			<key>高分子化学</key>
-			<false/>
-			<key>生体分子化学</key>
-			<false/>
-			<key>無機化学</key>
-			<false/>
-			<key>有機化学2</key>
-			<false/>
-			<key>生物化学2</key>
-			<false/>
-			<key>化学計測1</key>
-			<false/>
-			<key>生命化学プログラミング</key>
-			<false/>
-			<key>有機化学3</key>
-			<false/>
-			<key>分析化学</key>
+			<key>コース基礎演習2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>化学生命工学キャリアデザイン</key>
+			<key>人文地理学概説</key>
 			<false/>
-			<key>有機工業化学</key>
+			<key>自然地理学概説</key>
 			<false/>
-			<key>界面科学</key>
+			<key>地誌学講義</key>
 			<false/>
-			<key>量子物理化学</key>
+			<key>テーマ地理学</key>
 			<false/>
-			<key>生体分子計測学</key>
+			<key>テーマ地誌学</key>
 			<false/>
-			<key>分子生物学</key>
+			<key>考古学概説</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>考古学地域論</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>考古学講義</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>比較考古学</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>物質文化研究</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>比較民俗学概説</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>比較民俗学</key>
 			<false/>
-			<key>微生物学</key>
+			<key>比較文明論</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>文化人類学</key>
 			<false/>
-			<key>学外実習</key>
+			<key>宗教文化論</key>
+			<false/>
+			<key>地域研究論</key>
+			<false/>
+			<key>環境の倫理</key>
+			<false/>
+			<key>産業・組織心理学</key>
+			<false/>
+			<key>社会心理学</key>
+			<false/>
+			<key>言語と文化</key>
+			<false/>
+			<key>日本社会史</key>
+			<false/>
+			<key>アジア社会史</key>
+			<false/>
+			<key>西洋の歴史と社会B</key>
+			<false/>
+			<key>地理学演習</key>
+			<false/>
+			<key>人文地域論演習</key>
+			<false/>
+			<key>考古学演習</key>
+			<false/>
+			<key>物質文化論演習</key>
+			<false/>
+			<key>比較文明論演習</key>
+			<false/>
+			<key>文化人類学演習</key>
+			<false/>
+			<key>宗教文化論演習</key>
+			<false/>
+			<key>地域研究論演習</key>
+			<false/>
+			<key>フィールド学実験(エリアスタディーズ)</key>
+			<false/>
+			<key>フィールド学実習(エリアスタディーズ)</key>
+			<false/>
+			<key>フィールド学実験(地理学)</key>
+			<false/>
+			<key>フィールド学実験(考古学)</key>
+			<false/>
+			<key>フィールド学実験(文化人類学)</key>
+			<false/>
+			<key>フィールド学実習(地理学)</key>
+			<false/>
+			<key>フィールド学実習(考古学)</key>
+			<false/>
+			<key>フィールド学実習(文化人類学)</key>
 			<false/>
 		</dict>
 	</array>
 	<array>
 		<dict>
-			<key>フレッシュマンセミナー</key>
+			<key>人文科学入門</key>
 			<false/>
-			<key>有機化学基礎</key>
+			<key>人文科学基礎1</key>
 			<false/>
-			<key>無機化学基礎</key>
-			<false/>
-			<key>物理化学基礎</key>
-			<false/>
-			<key>応用数学1</key>
-			<false/>
-			<key>物理化学1</key>
-			<false/>
-			<key>化学工学基礎</key>
-			<false/>
-			<key>有機化学1</key>
-			<false/>
-			<key>物理化学2</key>
-			<false/>
-			<key>化学生命工学実験</key>
-			<false/>
-			<key>工学英語1</key>
-			<false/>
-			<key>化学情報分析実習</key>
-			<false/>
-			<key>化学生命工学セミナー1</key>
-			<false/>
-			<key>工学英語2</key>
-			<false/>
-			<key>化学生命工学セミナー2</key>
-			<false/>
-			<key>化学生命工学特別研究1</key>
-			<false/>
-			<key>工学倫理</key>
-			<false/>
-			<key>化学生命工学特別研究2</key>
-			<false/>
-			<key>卒業論文</key>
+			<key>人文科学基礎2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>情報システム</key>
+			<key>人文科学の実践</key>
 			<false/>
-			<key>地球科学基礎</key>
+			<key>心理学のしごと</key>
 			<false/>
-			<key>原子力・放射線と環境</key>
+			<key>メディア論入門</key>
 			<false/>
-			<key>生産工学論</key>
+			<key>地域と環境</key>
 			<false/>
-			<key>エレクトロニクス論</key>
+			<key>ことばを磨く</key>
 			<false/>
-			<key>科学技術論</key>
+			<key>異文化理解</key>
 			<false/>
-			<key>環境工学論</key>
+			<key>海外短期留学</key>
 			<false/>
-			<key>材料科学論</key>
-			<false/>
-			<key>エネルギー工学論</key>
+			<key>法文総合科目</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>生物学概論</key>
+			<key>卒業科目</key>
 			<false/>
-			<key>量子化学</key>
+			<key>コース基礎演習1</key>
 			<false/>
-			<key>生物化学1</key>
-			<false/>
-			<key>高分子化学</key>
-			<false/>
-			<key>生体分子化学</key>
-			<false/>
-			<key>無機化学</key>
-			<false/>
-			<key>有機化学2</key>
-			<false/>
-			<key>生物化学2</key>
-			<false/>
-			<key>化学計測1</key>
-			<false/>
-			<key>生命化学プログラミング</key>
-			<false/>
-			<key>有機化学3</key>
-			<false/>
-			<key>分析化学</key>
+			<key>コース基礎演習2</key>
 			<false/>
 		</dict>
 		<dict>
-			<key>化学生命工学キャリアデザイン</key>
+			<key>日本史概説</key>
 			<false/>
-			<key>有機工業化学</key>
+			<key>日本国制史</key>
 			<false/>
-			<key>界面科学</key>
+			<key>日本文化史</key>
 			<false/>
-			<key>量子物理化学</key>
+			<key>日本社会史</key>
 			<false/>
-			<key>生体分子計測学</key>
+			<key>日本文学史</key>
 			<false/>
-			<key>分子生物学</key>
+			<key>日本古典文学</key>
 			<false/>
-			<key>化学計測2</key>
+			<key>日本近世文学</key>
 			<false/>
-			<key>医工学概論</key>
+			<key>日本近代文学</key>
 			<false/>
-			<key>反応速度論</key>
+			<key>国語学概論</key>
 			<false/>
-			<key>機能材料化学</key>
+			<key>日本語構造論</key>
 			<false/>
-			<key>環境化学工学</key>
+			<key>言語と文化</key>
 			<false/>
-			<key>移動現象基礎</key>
+			<key>映像文化論</key>
 			<false/>
-			<key>微生物学</key>
+			<key>東洋史概説</key>
 			<false/>
-			<key>化学生命工学研究基礎</key>
+			<key>アジア文化史</key>
 			<false/>
-			<key>学外実習</key>
+			<key>アジア社会史</key>
+			<false/>
+			<key>地域研究論</key>
+			<false/>
+			<key>中国文学概説</key>
+			<false/>
+			<key>中国文学</key>
+			<false/>
+			<key>中国語学</key>
+			<false/>
+			<key>中国言語文化論</key>
+			<false/>
+			<key>日本史演習</key>
+			<false/>
+			<key>日本文学演習</key>
+			<false/>
+			<key>日本語構造論演習</key>
+			<false/>
+			<key>アジア史演習</key>
+			<false/>
+			<key>中国文学演習</key>
+			<false/>
+			<key>中国語学演習</key>
+			<false/>
+			<key>中国言語文化論演習</key>
+			<false/>
+			<key>アジア言語演習</key>
+			<false/>
+			<key>古文書実習</key>
+			<false/>
+			<key>書誌学実習</key>
+			<false/>
+			<key>書道</key>
+			<false/>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>人文科学入門</key>
+			<false/>
+			<key>人文科学基礎1</key>
+			<false/>
+			<key>人文科学基礎2</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>人文科学の実践</key>
+			<false/>
+			<key>心理学のしごと</key>
+			<false/>
+			<key>メディア論入門</key>
+			<false/>
+			<key>地域と環境</key>
+			<false/>
+			<key>ことばを磨く</key>
+			<false/>
+			<key>異文化理解</key>
+			<false/>
+			<key>海外短期留学</key>
+			<false/>
+			<key>法文総合科目</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>卒業科目</key>
+			<false/>
+			<key>コース基礎演習1</key>
+			<false/>
+			<key>コース基礎演習2</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>西洋の人間と思想A</key>
+			<false/>
+			<key>西洋の人間と思想B</key>
+			<false/>
+			<key>西洋の社会と思想</key>
+			<false/>
+			<key>西洋思想の歴史</key>
+			<false/>
+			<key>哲学概論</key>
+			<false/>
+			<key>倫理学概説</key>
+			<false/>
+			<key>芸術の思想</key>
+			<false/>
+			<key>環境の倫理</key>
+			<false/>
+			<key>生命の倫理</key>
+			<false/>
+			<key>西洋の歴史と社会A</key>
+			<false/>
+			<key>西洋の歴史と社会B</key>
+			<false/>
+			<key>西洋の歴史と文化</key>
+			<false/>
+			<key>西洋史概説</key>
+			<false/>
+			<key>イギリス文学</key>
+			<false/>
+			<key>イギリス演劇論</key>
+			<false/>
+			<key>アメリカ文学</key>
+			<false/>
+			<key>アメリカ小説論</key>
+			<false/>
+			<key>英語構造論</key>
+			<false/>
+			<key>英語学</key>
+			<false/>
+			<key>ドイツ語圏の文学と文化</key>
+			<false/>
+			<key>ドイツ女性文学論</key>
+			<false/>
+			<key>ドイツ語構造論</key>
+			<false/>
+			<key>フランス語圏文化論</key>
+			<false/>
+			<key>現代ヨーロッパ・アメリカ文化論</key>
+			<false/>
+			<key>ヨーロッパ・アメリカ視覚文化論</key>
+			<false/>
+			<key>現代メディア文化論</key>
+			<false/>
+			<key>日本近代文学</key>
+			<false/>
+			<key>西洋の人間と思想A演習</key>
+			<false/>
+			<key>西洋の人間と思想B演習</key>
+			<false/>
+			<key>西洋の社会と思想演習</key>
+			<false/>
+			<key>西洋の歴史と社会演習A</key>
+			<false/>
+			<key>西洋の歴史と社会演習B</key>
+			<false/>
+			<key>イギリス文学演習</key>
+			<false/>
+			<key>イギリス演劇論演習</key>
+			<false/>
+			<key>アメリカ文学演習</key>
+			<false/>
+			<key>英語構造論演習</key>
+			<false/>
+			<key>英語学演習</key>
+			<false/>
+			<key>英語コミュニケーション演習</key>
+			<false/>
+			<key>英語コミュニケーション1</key>
+			<false/>
+			<key>英語コミュニケーション2</key>
+			<false/>
+			<key>ドイツ語テキスト演習</key>
+			<false/>
+			<key>ドイツ女性文学論演習</key>
+			<false/>
+			<key>ドイツ語構造論演習</key>
+			<false/>
+			<key>ヨーロッパ言語文化演習A</key>
+			<false/>
+			<key>ヨーロッパ言語文化演習B</key>
+			<false/>
+			<key>ヨーロッパ言語コミュニケーション</key>
+			<false/>
+			<key>フランス言語文化論演習</key>
+			<false/>
+			<key>フランス語圏言語文化演習</key>
+			<false/>
+			<key>ヨーロッパ・アメリカ視覚文化論演習</key>
 			<false/>
 		</dict>
 	</array>
