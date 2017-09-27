@@ -22,39 +22,48 @@ class SelectMajor: UIViewController{
     let education:[String] = ["初等・教育学","初等・心理学","初等・国語","初等・社会","初等・数学","初等・理科","初等・音楽","初等・美術","初等・保健体育","初等・技術","初等・家庭","初等・英語","中等・教育学","中等・心理学","中等・国語","中等・社会","中等・数学","中等・理科","中等・音楽","中等・美術","中等・保健体育","中等・技術","中等・家庭","中等・英語"]
     let law:[String] = ["法政策学","経済情報","人文(人間と文化コース)","人文(メディアと現代文化コース)","人文(比較地域環境コース)","人文(日本とアジアコース)","人文(欧米文化コース)"]
     
-    var profile:(dep:Int, major:Int) = (0,0)
+    var profile:(dep:Int?, major:Int?) = (nil,nil)
+    @IBOutlet weak var returnButton: UIButton!
     @IBAction func actionButton00(_ sender: UIButton) {
         profile.dep = 0
-        depSelect(depNum: profile.dep)
+        depSelect(depNum: profile.dep!)
         majorSelect(sender: sender)
         
     }
     @IBAction func actionButton01(_ sender: UIButton) {
         profile.dep = 1
-        depSelect(depNum: profile.dep)
+        depSelect(depNum: profile.dep!)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton02(_ sender: UIButton) {
         profile.dep = 2
-        depSelect(depNum: profile.dep)
+        depSelect(depNum: profile.dep!)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton03(_ sender: UIButton) {
         profile.dep = 3
-        depSelect(depNum: profile.dep)
+        depSelect(depNum: profile.dep!)
         majorSelect(sender: sender)
     }
     @IBAction func actionButton04(_ sender: UIButton) {
         profile.dep = 4
-        depSelect(depNum: profile.dep)
+        depSelect(depNum: profile.dep!)
         majorSelect(sender: sender)
     }
     
     //保存 udに学部学科値を格納 homeに戻る
     @IBAction func seveProfile(_ sender: UIButton) {
-        let ud = UserDefaults.standard
-        ud.set(profile.dep, forKey: "department")
-        ud.set(profile.major, forKey: "major")
+        
+        if profile.dep != nil && profile.major != nil{
+            let ud = UserDefaults.standard
+            ud.set(profile.dep, forKey: "department")
+            ud.set(profile.major, forKey: "major")
+            self.dismiss(animated: true, completion: nil)
+        }else{
+            let alert = UIAlertController(title: "学部・学科選択", message: "学部・学科を選択してください", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(alert, animated: true, completion: nil)
+        }
     }
     
     func depSelect(depNum:Int){
@@ -95,7 +104,7 @@ class SelectMajor: UIViewController{
     
     func decideP()->StringPickerPopover{
         
-        switch profile.dep{
+        switch profile.dep!{
         case 0:
             return StringPickerPopover(title: "学科選択", choices: engineering)
         case 1:
@@ -111,8 +120,33 @@ class SelectMajor: UIViewController{
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        let ud = UserDefaults.standard
+        if ud.object(forKey: "deparatment") != nil && ud.object(forKey: "major") != nil{
+            returnButton.isHidden = false
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let ud = UserDefaults.standard
+        
+        
+        if ud.bool(forKey: "buttonLaunch") {
+            returnButton.isHidden = true
+            ud.set(false, forKey: "buttonLaunch")
+        }else{
+            
+            if ud.object(forKey: "deparatment") == nil && ud.object(forKey: "major") == nil{
+                returnButton.isHidden = true
+            }else{
+                returnButton.isHidden = false
+            }
+
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {

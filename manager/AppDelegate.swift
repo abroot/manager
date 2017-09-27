@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let userDefault = UserDefaults.standard
         // "homeLaunch"をキーに、Bool型の値を保持する
-        let dict = ["homeLaunch": true]
+        let dict = ["homeLaunch": true,"buttonLaunch": true]
         // デフォルト値登録
         // ※すでに値が更新されていた場合は、更新後の値のままになる
         userDefault.register(defaults: dict)

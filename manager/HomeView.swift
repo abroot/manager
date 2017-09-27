@@ -44,6 +44,10 @@ class HomeView: UIViewController {
             performSegue(withIdentifier: "toSelect", sender: self)
         }
         
+        if ud.object(forKey: "deparatment") == nil && ud.object(forKey: "major") == nil{
+            performSegue(withIdentifier: "toSelect", sender: self)
+        }
+        
         if (ud.object(forKey: "department") != nil) && (ud.object(forKey: "major") != nil){
             //↓変数にユーザデフォいれようとすると通らんくなる、０てことになる
 //            let depNum:Int = ud.integer(forKey: "depatment")
